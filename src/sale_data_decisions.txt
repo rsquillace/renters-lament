@@ -1,0 +1,5 @@
+To find the sale records associated with Seattle zip-codes, I used multiple dataframes from the King County Department of Assessments. I joined Real Property Sales with the Residential Building and Condo Unit dataframes, so as to only retrieve sales of residential dwellings.
+
+In aggregating this data, I chose to only consider homes and condos with 1-4 bedrooms, as these represent the majority of residential property sales that occur. Additionally, I only considered condos labeled as 'Flat' and 'Townhome'. These classifications are representative of standard condo sales, and offered an adequate amount of condo sale data.
+
+When grouping by year and zip-code I took the median sale prices, as these more accurately represent standard pricing and don't give weight to outliers. 

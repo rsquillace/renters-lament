@@ -1,731 +1,731 @@
-,2_digit_naics,3_digit_naics,industry,avg_wage,monthly_rent_allowance,year
-0,11,nan,"Agriculture, forestry, fishing and hunting",76911.0,2136.4166666666665,2011
-1,11,111.0,Crop production,27115.0,753.1944444444445,2011
-2,11,112.0,Animal production,30803.0,855.6388888888888,2011
-3,11,113.0,Forestry and logging,183894.0,5108.166666666667,2011
-4,11,114.0,"Fishing, hunting and trapping",132929.0,3692.472222222222,2011
-5,11,115.0,Agriculture and forestry support activities,28755.0,798.75,2011
-6,23,nan,Construction,60962.0,1693.388888888889,2011
-7,23,236.0,Construction of buildings,63458.0,1762.7222222222224,2011
-8,23,237.0,Heavy and civil engineering construction,76859.0,2134.972222222222,2011
-9,23,238.0,Specialty trade contractors,57086.0,1585.7222222222224,2011
-10,31-33,nan,Manufacturing,78272.0,2174.222222222222,2011
-11,31,311.0,Food manufacturing,52600.0,1461.111111111111,2011
-12,31,312.0,Beverage and tobacco product manufacturing,54763.0,1521.1944444444443,2011
-13,31,313.0,Textile mills,41718.0,1158.8333333333333,2011
-14,31,314.0,Textile product mills,42075.0,1168.75,2011
-15,31,315.0,Apparel manufacturing,39346.0,1092.9444444444446,2011
-16,31,316.0,Leather and allied product manufacturing,41668.0,1157.4444444444446,2011
-17,32,321.0,Wood product manufacturing,50376.0,1399.3333333333333,2011
-18,32,322.0,Paper manufacturing,55131.0,1531.4166666666667,2011
-19,32,323.0,Printing and related support activities,50040.0,1390.0,2011
-20,32,324.0,Petroleum and coal products manufacturing,69988.0,1944.111111111111,2011
-21,32,325.0,Chemical manufacturing,92188.0,2560.777777777778,2011
-22,32,326.0,Plastics and rubber products manufacturing,45353.0,1259.8055555555554,2011
-23,32,327.0,Nonmetallic mineral product manufacturing,52533.0,1459.25,2011
-24,33,331.0,Primary metal manufacturing,68335.0,1898.1944444444443,2011
-25,33,332.0,Fabricated metal product manufacturing,50198.0,1394.388888888889,2011
-26,33,333.0,Machinery manufacturing,66121.0,1836.6944444444443,2011
-27,33,334.0,Computer and electronic product manufacturing,86007.0,2389.0833333333335,2011
-28,33,335.0,Electrical equipment and appliance mfg.,68181.0,1893.9166666666667,2011
-29,33,336.0,Transportation equipment manufacturing,99723.0,2770.0833333333335,2011
-30,33,337.0,Furniture and related product manufacturing,40447.0,1123.5277777777778,2011
-31,33,339.0,Miscellaneous manufacturing,63033.0,1750.9166666666667,2011
-32,42,nan,Wholesale trade,76745.0,2131.8055555555557,2011
-33,42,423.0,"Merchant wholesalers, durable goods",78608.0,2183.5555555555557,2011
-34,42,424.0,"Merchant wholesalers, nondurable goods",64622.0,1795.0555555555557,2011
-35,42,425.0,Electronic markets and agents and broker,91487.0,2541.3055555555557,2011
-36,44-45,nan,Retail trade,38205.0,1061.25,2011
-37,44,441.0,Motor vehicle and parts dealers,49093.0,1363.6944444444446,2011
-38,44,442.0,Furniture and home furnishings stores,35469.0,985.25,2011
-39,44,443.0,Electronics and appliance stores,43433.0,1206.4722222222222,2011
-40,44,444.0,Building material and garden supply stores,33843.0,940.0833333333334,2011
-41,44,445.0,Food and beverage stores,28963.0,804.5277777777778,2011
-42,44,446.0,Health and personal care stores,37540.0,1042.7777777777778,2011
-43,44,447.0,Gasoline stations,21504.0,597.3333333333334,2011
-44,44,448.0,Clothing and clothing accessories stores,21385.0,594.0277777777777,2011
-45,45,451.0,"Sporting goods, hobby, book and music stores",21493.0,597.0277777777777,2011
-46,45,452.0,General merchandise stores,32298.0,897.1666666666666,2011
-47,45,453.0,Miscellaneous store retailers,25980.0,721.6666666666666,2011
-48,45,454.0,Nonstore retailers,96346.0,2676.277777777778,2011
-49,48-49,nan,Transportation and warehousing,56649.0,1573.5833333333333,2011
-50,48,481.0,Air transportation,73360.0,2037.7777777777776,2011
-51,48,483.0,Water transportation,74701.0,2075.027777777778,2011
-52,48,484.0,Truck transportation,43402.0,1205.611111111111,2011
-53,48,485.0,Transit and ground passenger transportation,29306.0,814.0555555555555,2011
-54,48,487.0,Scenic and sightseeing transportation,37060.0,1029.4444444444446,2011
-55,48,488.0,Support activities for transportation,63312.0,1758.6666666666667,2011
-56,49,491.0,Postal service,29389.0,816.3611111111112,2011
-57,49,492.0,Couriers and messengers,40543.0,1126.1944444444446,2011
-58,49,493.0,Warehousing and storage,52235.0,1450.9722222222224,2011
-59,51,nan,Information,139724.0,3881.222222222222,2011
-60,51,511.0,"Publishing industries, except Internet",164300.0,4563.888888888889,2011
-61,51,512.0,Motion picture and sound recording industries,33919.0,942.1944444444445,2011
-62,51,515.0,"Broadcasting, except Internet",76322.0,2120.0555555555557,2011
-63,51,516.0,Internet publishing and broadcasting,0.0,0.0,2011
-64,51,517.0,Telecommunications,97607.0,2711.3055555555557,2011
-65,51,518.0,"ISPs, search portals, and data processing",76173.0,2115.9166666666665,2011
-66,51,519.0,Other information services,111431.0,3095.305555555555,2011
-67,52,nan,Finance and insurance,90918.0,2525.5,2011
-68,52,522.0,Credit intermediation and related activities,75534.0,2098.1666666666665,2011
-69,52,523.0,"Securities, commodity contracts, investments",139075.0,3863.194444444445,2011
-70,52,524.0,Insurance carriers and related activities,84234.0,2339.8333333333335,2011
-71,53,nan,Real estate and rental and leasing,49754.0,1382.0555555555557,2011
-72,53,531.0,Real estate,50275.0,1396.5277777777776,2011
-73,53,532.0,Rental and leasing services,47261.0,1312.8055555555554,2011
-74,53,533.0,Lessors of nonfinancial intangible asset,63265.0,1757.361111111111,2011
-75,54,nan,Professional and technical services,86648.0,2406.888888888889,2011
-76,54,541.0,Professional and technical services,86648.0,2406.888888888889,2011
-77,55,nan,Management of companies and enterprises,109034.0,3028.722222222222,2011
-78,55,551.0,Management of companies and enterprises,109034.0,3028.722222222222,2011
-79,56,nan,Administrative and waste services,47313.0,1314.25,2011
-80,56,561.0,Administrative and support services,46924.0,1303.4444444444446,2011
-81,56,562.0,Waste management and remediation service,55381.0,1538.361111111111,2011
-82,61,nan,Educational services,36372.0,1010.3333333333334,2011
-83,61,611.0,Educational services,36372.0,1010.3333333333334,2011
-84,62,nan,Health care and social assistance,51358.0,1426.611111111111,2011
-85,62,621.0,Ambulatory health care services,58978.0,1638.2777777777776,2011
-86,62,622.0,Hospitals,73983.0,2055.0833333333335,2011
-87,62,623.0,Nursing and residential care facilities,30899.0,858.3055555555555,2011
-88,62,624.0,Social assistance,25470.0,707.5,2011
-89,71,nan,"Arts, entertainment, and recreation",33294.0,924.8333333333334,2011
-90,71,711.0,Performing arts and spectator sports,66676.0,1852.111111111111,2011
-91,71,712.0,"Museums, historical sites, zoos, and parks",34190.0,949.7222222222222,2011
-92,71,713.0,"Amusements, gambling, and recreation",19184.0,532.8888888888889,2011
-93,72,nan,Accommodation and food services,21352.0,593.1111111111111,2011
-94,72,721.0,Accommodation,29844.0,829.0,2011
-95,72,722.0,Food services and drinking places,19911.0,553.0833333333334,2011
-96,81,nan,"Other services, except public administration",30627.0,850.75,2011
-97,81,811.0,Repair and maintenance,43713.0,1214.25,2011
-98,81,812.0,Personal and laundry services,28708.0,797.4444444444445,2011
-99,81,813.0,Membership associations and organization,46470.0,1290.8333333333333,2011
-100,81,814.0,Private households,15803.0,438.97222222222223,2011
-101,TOTAL,nan,Total,65827.0,1828.5277777777776,2012
-102,11,nan,"Agriculture, forestry, fishing and hunting",82619.0,2294.972222222222,2012
-103,11,111.0,Crop production,27566.0,765.7222222222222,2012
-104,11,112.0,Animal production,29939.0,831.6388888888888,2012
-105,11,113.0,Forestry and logging,316375.0,8788.194444444443,2012
-106,11,114.0,"Fishing, hunting and trapping",131386.0,3649.6111111111113,2012
-107,11,115.0,Agriculture and forestry support activities,27398.0,761.0555555555555,2012
-108,23,nan,Construction,61203.0,1700.0833333333333,2012
-109,23,236.0,Construction of buildings,64992.0,1805.3333333333333,2012
-110,23,237.0,Heavy and civil engineering construction,77897.0,2163.8055555555557,2012
-111,23,238.0,Specialty trade contractors,56277.0,1563.25,2012
-112,31-33,nan,Manufacturing,79058.0,2196.0555555555557,2012
-113,31,311.0,Food manufacturing,53957.0,1498.8055555555557,2012
-114,31,312.0,Beverage and tobacco product manufacturing,55398.0,1538.8333333333333,2012
-115,31,313.0,Textile mills,39832.0,1106.4444444444446,2012
-116,31,314.0,Textile product mills,43806.0,1216.8333333333333,2012
-117,31,315.0,Apparel manufacturing,41385.0,1149.5833333333333,2012
-118,31,316.0,Leather and allied product manufacturing,38656.0,1073.7777777777778,2012
-119,32,321.0,Wood product manufacturing,49195.0,1366.5277777777776,2012
-120,32,322.0,Paper manufacturing,56424.0,1567.3333333333333,2012
-121,32,323.0,Printing and related support activities,50529.0,1403.5833333333333,2012
-122,32,324.0,Petroleum and coal products manufacturing,74236.0,2062.111111111111,2012
-123,32,325.0,Chemical manufacturing,68659.0,1907.1944444444443,2012
-124,32,326.0,Plastics and rubber products manufacturing,44685.0,1241.25,2012
-125,32,327.0,Nonmetallic mineral product manufacturing,53690.0,1491.388888888889,2012
-126,33,331.0,Primary metal manufacturing,80766.0,2243.5,2012
-127,33,332.0,Fabricated metal product manufacturing,52789.0,1466.361111111111,2012
-128,33,333.0,Machinery manufacturing,67227.0,1867.4166666666667,2012
-129,33,334.0,Computer and electronic product manufacturing,88567.0,2460.1944444444443,2012
-130,33,335.0,Electrical equipment and appliance mfg.,66829.0,1856.361111111111,2012
-131,33,336.0,Transportation equipment manufacturing,99712.0,2769.777777777778,2012
-132,33,337.0,Furniture and related product manufacturing,39534.0,1098.1666666666667,2012
-133,33,339.0,Miscellaneous manufacturing,64857.0,1801.5833333333333,2012
-134,42,nan,Wholesale trade,78730.0,2186.9444444444443,2012
-135,42,423.0,"Merchant wholesalers, durable goods",80254.0,2229.277777777778,2012
-136,42,424.0,"Merchant wholesalers, nondurable goods",65904.0,1830.6666666666667,2012
-137,42,425.0,Electronic markets and agents and broker,94836.0,2634.3333333333335,2012
-138,44-45,nan,Retail trade,41167.0,1143.5277777777778,2012
-139,44,441.0,Motor vehicle and parts dealers,50183.0,1393.9722222222224,2012
-140,44,442.0,Furniture and home furnishings stores,37196.0,1033.2222222222222,2012
-141,44,443.0,Electronics and appliance stores,44855.0,1245.9722222222222,2012
-142,44,444.0,Building material and garden supply stores,34519.0,958.8611111111112,2012
-143,44,445.0,Food and beverage stores,29558.0,821.0555555555555,2012
-144,44,446.0,Health and personal care stores,38240.0,1062.2222222222222,2012
-145,44,447.0,Gasoline stations,21658.0,601.6111111111111,2012
-146,44,448.0,Clothing and clothing accessories stores,21697.0,602.6944444444445,2012
-147,45,451.0,"Sporting goods, hobby, book and music stores",21850.0,606.9444444444445,2012
-148,45,452.0,General merchandise stores,31921.0,886.6944444444445,2012
-149,45,453.0,Miscellaneous store retailers,26953.0,748.6944444444445,2012
-150,45,454.0,Nonstore retailers,102727.0,2853.527777777778,2012
-151,48-49,nan,Transportation and warehousing,57323.0,1592.3055555555557,2012
-152,48,481.0,Air transportation,74732.0,2075.888888888889,2012
-153,48,483.0,Water transportation,70263.0,1951.75,2012
-154,48,484.0,Truck transportation,44971.0,1249.1944444444446,2012
-155,48,485.0,Transit and ground passenger transportation,30756.0,854.3333333333334,2012
-156,48,487.0,Scenic and sightseeing transportation,41925.0,1164.5833333333333,2012
-157,48,488.0,Support activities for transportation,62412.0,1733.6666666666667,2012
-158,49,492.0,Couriers and messengers,40964.0,1137.888888888889,2012
-159,49,493.0,Warehousing and storage,56400.0,1566.6666666666667,2012
-160,51,nan,Information,154003.0,4277.861111111111,2012
-161,51,511.0,"Publishing industries, except Internet",180193.0,5005.361111111111,2012
-162,51,512.0,Motion picture and sound recording industries,32679.0,907.75,2012
-163,51,515.0,"Broadcasting, except Internet",79578.0,2210.5,2012
-164,51,516.0,Internet publishing and broadcasting,0.0,0.0,2012
-165,51,517.0,Telecommunications,111885.0,3107.9166666666665,2012
-166,51,518.0,"ISPs, search portals, and data processing",76858.0,2134.9444444444443,2012
-167,51,519.0,Other information services,126960.0,3526.6666666666665,2012
-168,52,nan,Finance and insurance,96662.0,2685.0555555555557,2012
-169,52,522.0,Credit intermediation and related activities,84138.0,2337.1666666666665,2012
-170,52,523.0,"Securities, commodity contracts, investments",145493.0,4041.472222222222,2012
-171,52,524.0,Insurance carriers and related activities,86353.0,2398.6944444444443,2012
-172,53,nan,Real estate and rental and leasing,52098.0,1447.1666666666667,2012
-173,53,531.0,Real estate,53289.0,1480.25,2012
-174,53,532.0,Rental and leasing services,46392.0,1288.6666666666667,2012
-175,53,533.0,Lessors of nonfinancial intangible asset,70419.0,1956.0833333333333,2012
-176,54,nan,Professional and technical services,90140.0,2503.888888888889,2012
-177,54,541.0,Professional and technical services,90140.0,2503.888888888889,2012
-178,55,nan,Management of companies and enterprises,112578.0,3127.1666666666665,2012
-179,55,551.0,Management of companies and enterprises,112578.0,3127.1666666666665,2012
-180,56,nan,Administrative and waste services,50137.0,1392.6944444444443,2012
-181,56,561.0,Administrative and support services,49852.0,1384.7777777777776,2012
-182,56,562.0,Waste management and remediation service,56674.0,1574.2777777777776,2012
-183,61,nan,Educational services,36609.0,1016.9166666666666,2012
-184,61,611.0,Educational services,36609.0,1016.9166666666666,2012
-185,62,nan,Health care and social assistance,52481.0,1457.8055555555557,2012
-186,62,621.0,Ambulatory health care services,60872.0,1690.888888888889,2012
-187,62,622.0,Hospitals,75799.0,2105.527777777778,2012
-188,62,623.0,Nursing and residential care facilities,31262.0,868.3888888888888,2012
-189,62,624.0,Social assistance,26020.0,722.7777777777778,2012
-190,71,nan,"Arts, entertainment, and recreation",33200.0,922.2222222222222,2012
-191,71,711.0,Performing arts and spectator sports,66366.0,1843.5,2012
-192,71,712.0,"Museums, historical sites, zoos, and parks",34044.0,945.6666666666666,2012
-193,71,713.0,"Amusements, gambling, and recreation",19321.0,536.6944444444445,2012
-194,72,nan,Accommodation and food services,21994.0,610.9444444444445,2012
-195,72,721.0,Accommodation,30308.0,841.8888888888888,2012
-196,72,722.0,Food services and drinking places,20630.0,573.0555555555555,2012
-197,81,nan,"Other services, except public administration",31849.0,884.6944444444445,2012
-198,81,811.0,Repair and maintenance,44406.0,1233.5,2012
-199,81,812.0,Personal and laundry services,29354.0,815.3888888888888,2012
-200,81,813.0,Membership associations and organization,48691.0,1352.5277777777778,2012
-201,81,814.0,Private households,16269.0,451.9166666666667,2012
-202,GOV,nan,GOVERNMENT,60207.0,1672.4166666666667,2012
-203,NEC,nan,NOT ELSEWHERE CLASSIFIED,83148.0,2309.6666666666665,2012
-204,TOTAL,nan,Total,67241.0,1867.8055555555557,2013
-205,11,nan,"Agriculture, forestry, fishing and hunting",72447.0,2012.4166666666667,2013
-206,11,111.0,Crop production,29316.0,814.3333333333334,2013
-207,11,112.0,Animal production,30298.0,841.6111111111112,2013
-208,11,113.0,Forestry and logging,205555.0,5709.86111111111,2013
-209,11,114.0,"Fishing, hunting and trapping",115181.0,3199.472222222222,2013
-210,11,115.0,Agriculture and forestry support activities,31024.0,861.7777777777778,2013
-211,23,nan,Construction,61768.0,1715.7777777777776,2013
-212,23,236.0,Construction of buildings,64865.0,1801.8055555555557,2013
-213,23,237.0,Heavy and civil engineering construction,77008.0,2139.111111111111,2013
-214,23,238.0,Specialty trade contractors,57527.0,1597.9722222222224,2013
-215,31-33,nan,Manufacturing,81446.0,2262.388888888889,2013
-216,31,311.0,Food manufacturing,52561.0,1460.0277777777776,2013
-217,31,312.0,Beverage and tobacco product manufacturing,53498.0,1486.0555555555557,2013
-218,31,313.0,Textile mills,36063.0,1001.75,2013
-219,31,314.0,Textile product mills,44293.0,1230.361111111111,2013
-220,31,315.0,Apparel manufacturing,41846.0,1162.388888888889,2013
-221,31,316.0,Leather and allied product manufacturing,39412.0,1094.7777777777778,2013
-222,32,321.0,Wood product manufacturing,52519.0,1458.861111111111,2013
-223,32,322.0,Paper manufacturing,57502.0,1597.2777777777776,2013
-224,32,323.0,Printing and related support activities,50911.0,1414.1944444444443,2013
-225,32,324.0,Petroleum and coal products manufacturing,88604.0,2461.222222222222,2013
-226,32,325.0,Chemical manufacturing,70256.0,1951.5555555555557,2013
-227,32,326.0,Plastics and rubber products manufacturing,45187.0,1255.1944444444446,2013
-228,32,327.0,Nonmetallic mineral product manufacturing,55014.0,1528.1666666666667,2013
-229,33,331.0,Primary metal manufacturing,69466.0,1929.611111111111,2013
-230,33,332.0,Fabricated metal product manufacturing,52284.0,1452.3333333333333,2013
-231,33,333.0,Machinery manufacturing,67230.0,1867.5,2013
-232,33,334.0,Computer and electronic product manufacturing,90076.0,2502.111111111111,2013
-233,33,335.0,Electrical equipment and appliance mfg.,68069.0,1890.8055555555557,2013
-234,33,336.0,Transportation equipment manufacturing,104609.0,2905.805555555555,2013
-235,33,337.0,Furniture and related product manufacturing,41340.0,1148.3333333333333,2013
-236,33,339.0,Miscellaneous manufacturing,66858.0,1857.1666666666667,2013
-237,42,nan,Wholesale trade,78860.0,2190.5555555555557,2013
-238,42,423.0,"Merchant wholesalers, durable goods",80343.0,2231.75,2013
-239,42,424.0,"Merchant wholesalers, nondurable goods",65605.0,1822.361111111111,2013
-240,42,425.0,Electronic markets and agents and broker,94861.0,2635.027777777778,2013
-241,44-45,nan,Retail trade,44420.0,1233.888888888889,2013
-242,44,441.0,Motor vehicle and parts dealers,52226.0,1450.7222222222224,2013
-243,44,442.0,Furniture and home furnishings stores,38599.0,1072.1944444444446,2013
-244,44,443.0,Electronics and appliance stores,46821.0,1300.5833333333333,2013
-245,44,444.0,Building material and garden supply stores,34952.0,970.8888888888888,2013
-246,44,445.0,Food and beverage stores,30194.0,838.7222222222222,2013
-247,44,446.0,Health and personal care stores,40477.0,1124.361111111111,2013
-248,44,447.0,Gasoline stations,21638.0,601.0555555555555,2013
-249,44,448.0,Clothing and clothing accessories stores,22667.0,629.6388888888889,2013
-250,45,451.0,"Sporting goods, hobby, book and music stores",22325.0,620.1388888888889,2013
-251,45,452.0,General merchandise stores,31826.0,884.0555555555555,2013
-252,45,453.0,Miscellaneous store retailers,27287.0,757.9722222222222,2013
-253,45,454.0,Nonstore retailers,107678.0,2991.055555555555,2013
-254,48-49,nan,Transportation and warehousing,58781.0,1632.8055555555557,2013
-255,48,481.0,Air transportation,79201.0,2200.027777777778,2013
-256,48,483.0,Water transportation,71872.0,1996.4444444444443,2013
-257,48,484.0,Truck transportation,45488.0,1263.5555555555554,2013
-258,48,485.0,Transit and ground passenger transportation,31861.0,885.0277777777778,2013
-259,48,487.0,Scenic and sightseeing transportation,40224.0,1117.3333333333333,2013
-260,48,488.0,Support activities for transportation,59904.0,1664.0,2013
-261,49,491.0,Postal service,27006.0,750.1666666666666,2013
-262,49,492.0,Couriers and messengers,42851.0,1190.3055555555554,2013
-263,49,493.0,Warehousing and storage,60405.0,1677.9166666666667,2013
-264,51,nan,Information,157376.0,4371.555555555556,2013
-265,51,511.0,"Publishing industries, except Internet",185398.0,5149.944444444444,2013
-266,51,512.0,Motion picture and sound recording industries,31933.0,887.0277777777778,2013
-267,51,515.0,"Broadcasting, except Internet",80934.0,2248.1666666666665,2013
-268,51,516.0,Internet publishing and broadcasting,0.0,0.0,2013
-269,51,517.0,Telecommunications,108525.0,3014.5833333333335,2013
-270,51,518.0,"ISPs, search portals, and data processing",81586.0,2266.277777777778,2013
-271,51,519.0,Other information services,124411.0,3455.8611111111113,2013
-272,52,nan,Finance and insurance,99050.0,2751.3888888888887,2013
-273,52,522.0,Credit intermediation and related activities,83993.0,2333.138888888889,2013
-274,52,524.0,Insurance carriers and related activities,88985.0,2471.8055555555557,2013
-275,53,nan,Real estate and rental and leasing,53115.0,1475.4166666666667,2013
-276,53,531.0,Real estate,54216.0,1506.0,2013
-277,53,532.0,Rental and leasing services,47497.0,1319.361111111111,2013
-278,53,533.0,Lessors of nonfinancial intangible asset,73998.0,2055.5,2013
-279,54,nan,Professional and technical services,91942.0,2553.9444444444443,2013
-280,54,541.0,Professional and technical services,91942.0,2553.9444444444443,2013
-281,55,nan,Management of companies and enterprises,110805.0,3077.9166666666665,2013
-282,55,551.0,Management of companies and enterprises,110805.0,3077.9166666666665,2013
-283,56,nan,Administrative and waste services,50558.0,1404.388888888889,2013
-284,56,561.0,Administrative and support services,50205.0,1394.5833333333333,2013
-285,56,562.0,Waste management and remediation service,58573.0,1627.0277777777776,2013
-286,61,nan,Educational services,37680.0,1046.6666666666667,2013
-287,61,611.0,Educational services,37680.0,1046.6666666666667,2013
-288,62,nan,Health care and social assistance,53069.0,1474.138888888889,2013
-289,62,621.0,Ambulatory health care services,61319.0,1703.3055555555557,2013
-290,62,622.0,Hospitals,77804.0,2161.222222222222,2013
-291,62,623.0,Nursing and residential care facilities,32426.0,900.7222222222222,2013
-292,62,624.0,Social assistance,26318.0,731.0555555555555,2013
-293,71,nan,"Arts, entertainment, and recreation",36873.0,1024.25,2013
-294,71,711.0,Performing arts and spectator sports,74472.0,2068.6666666666665,2013
-295,71,712.0,"Museums, historical sites, zoos, and parks",34989.0,971.9166666666666,2013
-296,71,713.0,"Amusements, gambling, and recreation",20772.0,577.0,2013
-297,72,nan,Accommodation and food services,22513.0,625.3611111111111,2013
-298,72,721.0,Accommodation,31504.0,875.1111111111112,2013
-299,72,722.0,Food services and drinking places,21086.0,585.7222222222223,2013
-300,81,nan,"Other services, except public administration",33489.0,930.25,2013
-301,81,811.0,Repair and maintenance,46756.0,1298.7777777777778,2013
-302,81,812.0,Personal and laundry services,30275.0,840.9722222222222,2013
-303,81,813.0,Membership associations and organization,51381.0,1427.25,2013
-304,81,814.0,Private households,17073.0,474.25,2013
-305,GOV,nan,GOVERNMENT,61859.0,1718.3055555555557,2013
-306,NEC,nan,NOT ELSEWHERE CLASSIFIED,87703.0,2436.1944444444443,2013
-307,TOTAL,nan,TOTAL,70589.0,1960.8055555555557,2014
-308,11,nan,"Agriculture, forestry, fishing and hunting",70430.0,1956.388888888889,2014
-309,11,111.0,Crop production,30371.0,843.6388888888888,2014
-310,11,112.0,Animal production,32758.0,909.9444444444445,2014
-311,11,113.0,Forestry and logging,215949.0,5998.583333333333,2014
-312,11,114.0,"Fishing, hunting and trapping",111657.0,3101.5833333333335,2014
-313,11,115.0,Agriculture and forestry support activities,36024.0,1000.6666666666666,2014
-314,23,nan,Construction,63542.0,1765.0555555555557,2014
-315,23,236.0,Construction of buildings,67061.0,1862.8055555555557,2014
-316,23,237.0,Heavy and civil engineering construction,78428.0,2178.5555555555557,2014
-317,23,238.0,Specialty trade contractors,59112.0,1642.0,2014
-318,31-33,nan,Manufacturing,85909.0,2386.361111111111,2014
-319,31,311.0,Food manufacturing,53432.0,1484.2222222222224,2014
-320,31,312.0,Beverage and tobacco product manufacturing,49861.0,1385.0277777777776,2014
-321,31,313.0,Textile mills,37938.0,1053.8333333333333,2014
-322,31,314.0,Textile product mills,46140.0,1281.6666666666667,2014
-323,31,315.0,Apparel manufacturing,43270.0,1201.9444444444446,2014
-324,31,316.0,Leather and allied product manufacturing,41559.0,1154.4166666666667,2014
-325,32,321.0,Wood product manufacturing,51588.0,1433.0,2014
-326,32,322.0,Paper manufacturing,61059.0,1696.0833333333333,2014
-327,32,323.0,Printing and related support activities,52468.0,1457.4444444444443,2014
-328,32,324.0,Petroleum and coal products manufacturing,95008.0,2639.111111111111,2014
-329,32,325.0,Chemical manufacturing,72295.0,2008.1944444444443,2014
-330,32,326.0,Plastics and rubber products manufacturing,45965.0,1276.8055555555554,2014
-331,32,327.0,Nonmetallic mineral product manufacturing,57102.0,1586.1666666666667,2014
-332,33,331.0,Primary metal manufacturing,70783.0,1966.1944444444443,2014
-333,33,332.0,Fabricated metal product manufacturing,55414.0,1539.2777777777776,2014
-334,33,333.0,Machinery manufacturing,70642.0,1962.2777777777776,2014
-335,33,334.0,Computer and electronic product manufacturing,93148.0,2587.4444444444443,2014
-336,33,335.0,Electrical equipment and appliance mfg.,72311.0,2008.638888888889,2014
-337,33,336.0,Transportation equipment manufacturing,113114.0,3142.055555555555,2014
-338,33,337.0,Furniture and related product manufacturing,41686.0,1157.9444444444446,2014
-339,33,339.0,Miscellaneous manufacturing,67329.0,1870.25,2014
-340,42,nan,Wholesale trade,81435.0,2262.0833333333335,2014
-341,42,423.0,"Merchant wholesalers, durable goods",82722.0,2297.8333333333335,2014
-342,42,424.0,"Merchant wholesalers, nondurable goods",66586.0,1849.611111111111,2014
-343,42,425.0,Electronic markets and agents and broker,99481.0,2763.3611111111113,2014
-344,44-45,nan,Retail trade,48346.0,1342.9444444444446,2014
-345,44,441.0,Motor vehicle and parts dealers,53548.0,1487.4444444444443,2014
-346,44,442.0,Furniture and home furnishings stores,41423.0,1150.638888888889,2014
-347,44,443.0,Electronics and appliance stores,48402.0,1344.5,2014
-348,44,444.0,Building material and garden supply stores,35125.0,975.6944444444445,2014
-349,44,445.0,Food and beverage stores,30652.0,851.4444444444445,2014
-350,44,446.0,Health and personal care stores,40809.0,1133.5833333333333,2014
-351,44,447.0,Gasoline stations,22110.0,614.1666666666666,2014
-352,44,448.0,Clothing and clothing accessories stores,24292.0,674.7777777777777,2014
-353,45,451.0,"Sporting goods, hobby, book and music stores",23613.0,655.9166666666666,2014
-354,45,452.0,General merchandise stores,31855.0,884.8611111111112,2014
-355,45,453.0,Miscellaneous store retailers,28198.0,783.2777777777778,2014
-356,45,454.0,Nonstore retailers,113622.0,3156.1666666666665,2014
-357,48-49,nan,Transportation and warehousing,59277.0,1646.5833333333333,2014
-358,48,481.0,Air transportation,81199.0,2255.527777777778,2014
-359,48,483.0,Water transportation,72828.0,2023.0,2014
-360,48,484.0,Truck transportation,46783.0,1299.5277777777778,2014
-361,48,485.0,Transit and ground passenger transportation,32740.0,909.4444444444445,2014
-362,48,487.0,Scenic and sightseeing transportation,41113.0,1142.0277777777778,2014
-363,48,488.0,Support activities for transportation,59679.0,1657.75,2014
-364,49,491.0,Postal service,26128.0,725.7777777777778,2014
-365,49,492.0,Couriers and messengers,42902.0,1191.7222222222222,2014
-366,49,493.0,Warehousing and storage,56272.0,1563.111111111111,2014
-367,51,nan,Information,173746.0,4826.277777777778,2014
-368,51,511.0,"Publishing industries, except Internet",206152.0,5726.444444444444,2014
-369,51,512.0,Motion picture and sound recording industries,29407.0,816.8611111111112,2014
-370,51,515.0,"Broadcasting, except Internet",80759.0,2243.3055555555557,2014
-371,51,516.0,Internet publishing and broadcasting,0.0,0.0,2014
-372,51,517.0,Telecommunications,119664.0,3324.0,2014
-373,51,518.0,"ISPs, search portals, and data processing",103135.0,2864.8611111111113,2014
-374,51,519.0,Other information services,132417.0,3678.25,2014
-375,52,nan,Finance and insurance,104180.0,2893.8888888888887,2014
-376,52,522.0,Credit intermediation and related activities,83921.0,2331.138888888889,2014
-377,52,524.0,Insurance carriers and related activities,89749.0,2493.027777777778,2014
-378,53,nan,Real estate and rental and leasing,55297.0,1536.0277777777776,2014
-379,53,531.0,Real estate,56483.0,1568.9722222222224,2014
-380,53,532.0,Rental and leasing services,49315.0,1369.861111111111,2014
-381,53,533.0,Lessors of nonfinancial intangible asset,60882.0,1691.1666666666667,2014
-382,54,nan,Professional and technical services,96120.0,2670.0,2014
-383,54,541.0,Professional and technical services,96120.0,2670.0,2014
-384,55,nan,Management of companies and enterprises,110545.0,3070.694444444445,2014
-385,55,551.0,Management of companies and enterprises,110545.0,3070.694444444445,2014
-386,56,nan,Administrative and waste services,52313.0,1453.138888888889,2014
-387,56,561.0,Administrative and support services,51953.0,1443.138888888889,2014
-388,56,562.0,Waste management and remediation service,60657.0,1684.9166666666667,2014
-389,61,nan,Educational services,37750.0,1048.611111111111,2014
-390,61,611.0,Educational services,37750.0,1048.611111111111,2014
-391,62,nan,Health care and social assistance,50139.0,1392.75,2014
-392,62,621.0,Ambulatory health care services,62474.0,1735.388888888889,2014
-393,62,622.0,Hospitals,79336.0,2203.777777777778,2014
-394,62,623.0,Nursing and residential care facilities,36242.0,1006.7222222222222,2014
-395,62,624.0,Social assistance,21984.0,610.6666666666666,2014
-396,71,nan,"Arts, entertainment, and recreation",39909.0,1108.5833333333333,2014
-397,71,711.0,Performing arts and spectator sports,82266.0,2285.1666666666665,2014
-398,71,712.0,"Museums, historical sites, zoos, and parks",36594.0,1016.5,2014
-399,71,713.0,"Amusements, gambling, and recreation",22091.0,613.6388888888889,2014
-400,72,nan,Accommodation and food services,23250.0,645.8333333333334,2014
-401,72,721.0,Accommodation,33248.0,923.5555555555555,2014
-402,72,722.0,Food services and drinking places,21764.0,604.5555555555555,2014
-403,81,nan,"Other services, except public administration",41828.0,1161.888888888889,2014
-404,81,811.0,Repair and maintenance,46865.0,1301.8055555555554,2014
-405,81,812.0,Personal and laundry services,30192.0,838.6666666666666,2014
-406,81,813.0,Membership associations and organization,53460.0,1485.0,2014
-407,81,814.0,Private households,35208.0,978.0,2014
-408,TOTAL,nan,TOTAL,72451.0,2012.5277777777776,2015
-409,11,nan,"Agriculture, forestry, fishing and hunting",67416.0,1872.6666666666667,2015
-410,11,111.0,Crop production,30446.0,845.7222222222222,2015
-411,11,112.0,Animal production,34719.0,964.4166666666666,2015
-412,11,113.0,Forestry and logging,204592.0,5683.11111111111,2015
-413,11,114.0,"Fishing, hunting and trapping",96225.0,2672.9166666666665,2015
-414,11,115.0,Agriculture and forestry support activities,35524.0,986.7777777777778,2015
-415,23,nan,Construction,66001.0,1833.361111111111,2015
-416,23,236.0,Construction of buildings,70111.0,1947.5277777777776,2015
-417,23,237.0,Heavy and civil engineering construction,79800.0,2216.6666666666665,2015
-418,23,238.0,Specialty trade contractors,61935.0,1720.4166666666667,2015
-419,31-33,nan,Manufacturing,85321.0,2370.027777777778,2015
-420,31,311.0,Food manufacturing,54010.0,1500.2777777777776,2015
-421,31,312.0,Beverage and tobacco product manufacturing,49618.0,1378.2777777777776,2015
-422,31,313.0,Textile mills,37002.0,1027.8333333333333,2015
-423,31,314.0,Textile product mills,47952.0,1332.0,2015
-424,31,315.0,Apparel manufacturing,43574.0,1210.388888888889,2015
-425,31,316.0,Leather and allied product manufacturing,32401.0,900.0277777777778,2015
-426,32,321.0,Wood product manufacturing,53912.0,1497.5555555555557,2015
-427,32,322.0,Paper manufacturing,62206.0,1727.9444444444443,2015
-428,32,323.0,Printing and related support activities,53903.0,1497.3055555555557,2015
-429,32,324.0,Petroleum and coal products manufacturing,84317.0,2342.138888888889,2015
-430,32,325.0,Chemical manufacturing,73400.0,2038.888888888889,2015
-431,32,326.0,Plastics and rubber products manufacturing,48662.0,1351.7222222222222,2015
-432,32,327.0,Nonmetallic mineral product manufacturing,59279.0,1646.638888888889,2015
-433,33,331.0,Primary metal manufacturing,72568.0,2015.7777777777776,2015
-434,33,332.0,Fabricated metal product manufacturing,55150.0,1531.9444444444443,2015
-435,33,333.0,Machinery manufacturing,71503.0,1986.1944444444443,2015
-436,33,334.0,Computer and electronic product manufacturing,96788.0,2688.5555555555557,2015
-437,33,335.0,Electrical equipment and appliance mfg.,76298.0,2119.388888888889,2015
-438,33,336.0,Transportation equipment manufacturing,110825.0,3078.472222222222,2015
-439,33,337.0,Furniture and related product manufacturing,41966.0,1165.7222222222222,2015
-440,33,339.0,Miscellaneous manufacturing,69839.0,1939.9722222222224,2015
-441,42,nan,Wholesale trade,84101.0,2336.138888888889,2015
-442,42,423.0,"Merchant wholesalers, durable goods",86469.0,2401.9166666666665,2015
-443,42,424.0,"Merchant wholesalers, nondurable goods",67449.0,1873.5833333333333,2015
-444,42,425.0,Electronic markets and agents and broker,102831.0,2856.4166666666665,2015
-445,44-45,nan,Retail trade,52667.0,1462.9722222222224,2015
-446,44,441.0,Motor vehicle and parts dealers,53814.0,1494.8333333333333,2015
-447,44,442.0,Furniture and home furnishings stores,44168.0,1226.888888888889,2015
-448,44,443.0,Electronics and appliance stores,51775.0,1438.1944444444443,2015
-449,44,444.0,Building material and garden supply stores,37625.0,1045.138888888889,2015
-450,44,445.0,Food and beverage stores,31365.0,871.25,2015
-451,44,446.0,Health and personal care stores,40873.0,1135.361111111111,2015
-452,44,447.0,Gasoline stations,23353.0,648.6944444444445,2015
-453,44,448.0,Clothing and clothing accessories stores,25507.0,708.5277777777778,2015
-454,45,451.0,"Sporting goods, hobby, book and music stores",25846.0,717.9444444444445,2015
-455,45,452.0,General merchandise stores,33501.0,930.5833333333334,2015
-456,45,453.0,Miscellaneous store retailers,28885.0,802.3611111111112,2015
-457,45,454.0,Nonstore retailers,120589.0,3349.694444444445,2015
-458,48-49,nan,Transportation and warehousing,62124.0,1725.6666666666667,2015
-459,48,481.0,Air transportation,85098.0,2363.8333333333335,2015
-460,48,483.0,Water transportation,78918.0,2192.1666666666665,2015
-461,48,484.0,Truck transportation,48082.0,1335.611111111111,2015
-462,48,485.0,Transit and ground passenger transportation,34119.0,947.75,2015
-463,48,487.0,Scenic and sightseeing transportation,46044.0,1279.0,2015
-464,48,488.0,Support activities for transportation,62864.0,1746.2222222222224,2015
-465,49,492.0,Couriers and messengers,42926.0,1192.388888888889,2015
-466,49,493.0,Warehousing and storage,56554.0,1570.9444444444443,2015
-467,51,nan,Information,174003.0,4833.416666666667,2015
-468,51,511.0,"Publishing industries, except Internet",202617.0,5628.25,2015
-469,51,512.0,Motion picture and sound recording industries,32151.0,893.0833333333334,2015
-470,51,515.0,"Broadcasting, except Internet",83021.0,2306.138888888889,2015
-471,51,516.0,Internet publishing and broadcasting,0.0,0.0,2015
-472,51,517.0,Telecommunications,136903.0,3802.8611111111113,2015
-473,51,518.0,"ISPs, search portals, and data processing",97822.0,2717.277777777778,2015
-474,51,519.0,Other information services,159830.0,4439.722222222222,2015
-475,52,nan,Finance and insurance,107680.0,2991.1111111111113,2015
-476,52,522.0,Credit intermediation and related activities,96166.0,2671.277777777778,2015
-477,52,524.0,Insurance carriers and related activities,93099.0,2586.0833333333335,2015
-478,53,nan,Real estate and rental and leasing,57860.0,1607.2222222222224,2015
-479,53,531.0,Real estate,59183.0,1643.9722222222224,2015
-480,53,532.0,Rental and leasing services,51250.0,1423.611111111111,2015
-481,53,533.0,Lessors of nonfinancial intangible asset,66122.0,1836.7222222222224,2015
-482,54,nan,Professional and technical services,96540.0,2681.6666666666665,2015
-483,54,541.0,Professional and technical services,96540.0,2681.6666666666665,2015
-484,55,nan,Management of companies and enterprises,113573.0,3154.805555555555,2015
-485,55,551.0,Management of companies and enterprises,113573.0,3154.805555555555,2015
-486,56,nan,Administrative and waste services,54099.0,1502.75,2015
-487,56,561.0,Administrative and support services,53660.0,1490.5555555555557,2015
-488,56,562.0,Waste management and remediation service,64127.0,1781.3055555555557,2015
-489,61,nan,Educational services,38863.0,1079.5277777777778,2015
-490,61,611.0,Educational services,38863.0,1079.5277777777778,2015
-491,62,nan,Health care and social assistance,52905.0,1469.5833333333333,2015
-492,62,621.0,Ambulatory health care services,64672.0,1796.4444444444443,2015
-493,62,622.0,Hospitals,82955.0,2304.3055555555557,2015
-494,62,623.0,Nursing and residential care facilities,34053.0,945.9166666666666,2015
-495,62,624.0,Social assistance,24698.0,686.0555555555555,2015
-496,72,nan,Accommodation and food services,24485.0,680.1388888888889,2015
-497,72,721.0,Accommodation,34290.0,952.5,2015
-498,72,722.0,Food services and drinking places,23053.0,640.3611111111111,2015
-499,81,nan,"Other services, except public administration",42884.0,1191.2222222222222,2015
-500,81,811.0,Repair and maintenance,48712.0,1353.111111111111,2015
-501,81,812.0,Personal and laundry services,30273.0,840.9166666666666,2015
-502,81,813.0,Membership associations and organization,55361.0,1537.8055555555557,2015
-503,81,814.0,Private households,35787.0,994.0833333333334,2015
-504,TOTAL,nan,TOTAL,76828.0,2134.111111111111,2016
-505,11,nan,"Agriculture, forestry, fishing and hunting",83467.0,2318.527777777778,2016
-506,11,111.0,Crop production,32322.0,897.8333333333334,2016
-507,11,112.0,Animal production,35890.0,996.9444444444445,2016
-508,11,113.0,Forestry and logging,564832.0,15689.77777777778,2016
-509,11,114.0,"Fishing, hunting and trapping",104263.0,2896.194444444445,2016
-510,11,115.0,Agriculture and forestry support activities,31806.0,883.5,2016
-511,23,nan,Construction,68822.0,1911.7222222222224,2016
-512,23,236.0,Construction of buildings,73113.0,2030.9166666666667,2016
-513,23,237.0,Heavy and civil engineering construction,82965.0,2304.5833333333335,2016
-514,23,238.0,Specialty trade contractors,64964.0,1804.5555555555557,2016
-515,31-33,nan,Manufacturing,86298.0,2397.1666666666665,2016
-516,31,311.0,Food manufacturing,54068.0,1501.888888888889,2016
-517,31,312.0,Beverage and tobacco product manufacturing,49761.0,1382.25,2016
-518,31,313.0,Textile mills,42311.0,1175.3055555555554,2016
-519,31,314.0,Textile product mills,67849.0,1884.6944444444443,2016
-520,31,315.0,Apparel manufacturing,44123.0,1225.638888888889,2016
-521,31,316.0,Leather and allied product manufacturing,35234.0,978.7222222222222,2016
-522,32,321.0,Wood product manufacturing,54924.0,1525.6666666666667,2016
-523,32,322.0,Paper manufacturing,62748.0,1743.0,2016
-524,32,323.0,Printing and related support activities,54584.0,1516.2222222222224,2016
-525,32,324.0,Petroleum and coal products manufacturing,84971.0,2360.3055555555557,2016
-526,32,325.0,Chemical manufacturing,80710.0,2241.9444444444443,2016
-527,32,326.0,Plastics and rubber products manufacturing,51017.0,1417.138888888889,2016
-528,32,327.0,Nonmetallic mineral product manufacturing,62213.0,1728.138888888889,2016
-529,33,331.0,Primary metal manufacturing,70846.0,1967.9444444444443,2016
-530,33,332.0,Fabricated metal product manufacturing,55892.0,1552.5555555555557,2016
-531,33,333.0,Machinery manufacturing,71559.0,1987.75,2016
-532,33,334.0,Computer and electronic product manufacturing,109283.0,3035.6388888888887,2016
-533,33,335.0,Electrical equipment and appliance mfg.,75498.0,2097.1666666666665,2016
-534,33,336.0,Transportation equipment manufacturing,111757.0,3104.3611111111113,2016
-535,33,337.0,Furniture and related product manufacturing,44802.0,1244.5,2016
-536,33,339.0,Miscellaneous manufacturing,69876.0,1941.0,2016
-537,42,nan,Wholesale trade,86580.0,2405.0,2016
-538,42,423.0,"Merchant wholesalers, durable goods",89443.0,2484.527777777778,2016
-539,42,424.0,"Merchant wholesalers, nondurable goods",68046.0,1890.1666666666667,2016
-540,42,425.0,Electronic markets and agents and broker,107132.0,2975.8888888888887,2016
-541,44-45,nan,Retail trade,70808.0,1966.888888888889,2016
-542,44,441.0,Motor vehicle and parts dealers,55354.0,1537.611111111111,2016
-543,44,442.0,Furniture and home furnishings stores,43120.0,1197.7777777777778,2016
-544,44,443.0,Electronics and appliance stores,57849.0,1606.9166666666667,2016
-545,44,444.0,Building material and garden supply stores,38360.0,1065.5555555555554,2016
-546,44,445.0,Food and beverage stores,31797.0,883.25,2016
-547,44,446.0,Health and personal care stores,42459.0,1179.4166666666667,2016
-548,44,447.0,Gasoline stations,24885.0,691.25,2016
-549,44,448.0,Clothing and clothing accessories stores,25475.0,707.6388888888888,2016
-550,45,451.0,"Sporting goods, hobby, book and music stores",27124.0,753.4444444444445,2016
-551,45,452.0,General merchandise stores,34293.0,952.5833333333334,2016
-552,45,453.0,Miscellaneous store retailers,30405.0,844.5833333333334,2016
-553,45,454.0,Nonstore retailers,183637.0,5101.027777777778,2016
-554,48-49,nan,Transportation and warehousing,64633.0,1795.361111111111,2016
-555,48,481.0,Air transportation,89819.0,2494.972222222222,2016
-556,48,483.0,Water transportation,81652.0,2268.111111111111,2016
-557,48,484.0,Truck transportation,48764.0,1354.5555555555554,2016
-558,48,485.0,Transit and ground passenger transportation,38094.0,1058.1666666666667,2016
-559,48,487.0,Scenic and sightseeing transportation,47080.0,1307.7777777777778,2016
-560,48,488.0,Support activities for transportation,65346.0,1815.1666666666667,2016
-561,49,491.0,Postal service,28842.0,801.1666666666666,2016
-562,49,492.0,Couriers and messengers,42104.0,1169.5555555555554,2016
-563,49,493.0,Warehousing and storage,54235.0,1506.5277777777776,2016
-564,51,nan,Information,183401.0,5094.472222222222,2016
-565,51,511.0,"Publishing industries, except Internet",207948.0,5776.333333333333,2016
-566,51,512.0,Motion picture and sound recording industries,30975.0,860.4166666666666,2016
-567,51,515.0,"Broadcasting, except Internet",85212.0,2367.0,2016
-568,51,516.0,Internet publishing and broadcasting,0.0,0.0,2016
-569,51,517.0,Telecommunications,140211.0,3894.75,2016
-570,51,518.0,"ISPs, search portals, and data processing",117147.0,3254.0833333333335,2016
-571,51,519.0,Other information services,191501.0,5319.472222222222,2016
-572,52,nan,Finance and insurance,110779.0,3077.194444444445,2016
-573,52,522.0,Credit intermediation and related activities,99331.0,2759.194444444445,2016
-574,52,524.0,Insurance carriers and related activities,97082.0,2696.722222222222,2016
-575,53,nan,Real estate and rental and leasing,60482.0,1680.0555555555557,2016
-576,53,531.0,Real estate,62210.0,1728.0555555555557,2016
-577,53,532.0,Rental and leasing services,52416.0,1456.0,2016
-578,53,533.0,Lessors of nonfinancial intangible asset,73093.0,2030.361111111111,2016
-579,54,nan,Professional and technical services,100020.0,2778.3333333333335,2016
-580,54,541.0,Professional and technical services,100020.0,2778.3333333333335,2016
-581,55,nan,Management of companies and enterprises,115440.0,3206.6666666666665,2016
-582,55,551.0,Management of companies and enterprises,115440.0,3206.6666666666665,2016
-583,56,nan,Administrative and waste services,55652.0,1545.888888888889,2016
-584,56,561.0,Administrative and support services,55190.0,1533.0555555555557,2016
-585,56,562.0,Waste management and remediation service,66632.0,1850.888888888889,2016
-586,61,nan,Educational services,38695.0,1074.861111111111,2016
-587,61,611.0,Educational services,38695.0,1074.861111111111,2016
-588,62,nan,Healthcare and social assistance,54520.0,1514.4444444444443,2016
-589,62,621.0,Ambulatory healthcare services,66467.0,1846.3055555555557,2016
-590,62,622.0,Hospitals,82811.0,2300.3055555555557,2016
-591,62,623.0,Nursing and residential care facilities,35083.0,974.5277777777778,2016
-592,62,624.0,Social assistance,26760.0,743.3333333333334,2016
-593,71,nan,"Arts, entertainment, and recreation",41629.0,1156.361111111111,2016
-594,71,711.0,Performing arts and spectator sports,83112.0,2308.6666666666665,2016
-595,71,712.0,"Museums, historical sites, zoos, and parks",38136.0,1059.3333333333333,2016
-596,71,713.0,"Amusements, gambling, and recreation",23176.0,643.7777777777777,2016
-597,72,nan,Accommodation and food services,25891.0,719.1944444444445,2016
-598,72,721.0,Accommodation,35732.0,992.5555555555555,2016
-599,72,722.0,Food services and drinking places,24454.0,679.2777777777777,2016
-600,81,nan,"Other services, except public administration",44753.0,1243.138888888889,2016
-601,81,811.0,Repair and maintenance,49554.0,1376.5,2016
-602,81,812.0,Personal and laundry services,33261.0,923.9166666666666,2016
-603,81,813.0,Membership associations and organization,56593.0,1572.0277777777776,2016
-604,81,814.0,Private households,37443.0,1040.0833333333333,2016
-605,Total,Total,Total,81550.0,2265.277777777778,2017
-606,11,nan,"Agriculture, forestry, fishing and hunting",65439.0,1817.75,2017
-607,11,111,Crop production,34048.0,945.7777777777778,2017
-608,11,112,Animal production,36032.0,1000.8888888888888,2017
-609,11,113,Forestry and logging,85805.0,2383.472222222222,2017
-610,11,114,"Fishing, hunting and trapping",129062.0,3585.055555555555,2017
-611,11,115,Agriculture and forestry support activities,34269.0,951.9166666666666,2017
-612,23,nan,Construction,71700.0,1991.6666666666667,2017
-613,23,236,Construction of buildings,76358.0,2121.0555555555557,2017
-614,23,237,Heavy and civil engineering construction,88165.0,2449.027777777778,2017
-615,23,238,Specialty trade contractors,67551.0,1876.4166666666667,2017
-616,31-33,nan,Manufacturing,88173.0,2449.25,2017
-617,31,311,Food manufacturing,58095.0,1613.75,2017
-618,31,312,Beverage and tobacco product manufacturing,51739.0,1437.1944444444443,2017
-619,31,313,Textile mills,44370.0,1232.5,2017
-620,31,314,Textile product mills,54607.0,1516.861111111111,2017
-621,31,315,Apparel manufacturing,45521.0,1264.4722222222222,2017
-622,31,316,Leather and allied product manufacturing,35760.0,993.3333333333334,2017
-623,32,321,Wood product manufacturing,58770.0,1632.5,2017
-624,32,322,Paper manufacturing,64758.0,1798.8333333333333,2017
-625,32,323,Printing and related support activities,52485.0,1457.9166666666667,2017
-626,32,324,Petroleum and coal products manufacturing,84674.0,2352.0555555555557,2017
-627,32,325,Chemical manufacturing,84594.0,2349.8333333333335,2017
-628,32,326,Plastics and rubber products manufacturing,50983.0,1416.1944444444443,2017
-629,32,327,Nonmetallic mineral product manufacturing,63412.0,1761.4444444444443,2017
-630,33,331,Primary metal manufacturing,75240.0,2090.0,2017
-631,33,332,Fabricated metal product manufacturing,57221.0,1589.4722222222224,2017
-632,33,333,Machinery manufacturing,75821.0,2106.138888888889,2017
-633,33,334,Computer and electronic product manufacturing,102023.0,2833.972222222222,2017
-634,33,335,Electrical equipment and appliance manufacturing,80756.0,2243.222222222222,2017
-635,33,336,Transportation equipment manufacturing,117075.0,3252.0833333333335,2017
-636,33,337,Furniture and related product manufacturing,46506.0,1291.8333333333333,2017
-637,33,339,Miscellaneous manufacturing,72491.0,2013.638888888889,2017
-638,42,nan,Wholesale trade,91019.0,2528.3055555555557,2017
-639,42,423,"Merchant wholesalers, durable goods",95070.0,2640.8333333333335,2017
-640,42,424,"Merchant wholesalers, nondurable goods",70332.0,1953.6666666666667,2017
-641,42,425,Electronic markets and agents and broker,112231.0,3117.527777777778,2017
-642,44-45,nan,Retail trade,84497.0,2347.138888888889,2017
-643,44,441,Motor vehicle and parts dealers,57330.0,1592.5,2017
-644,44,443,Electronics and appliance stores,58945.0,1637.361111111111,2017
-645,44,444,Building material and garden supply stores,41842.0,1162.2777777777778,2017
-646,44,445,Food and beverage stores,33135.0,920.4166666666666,2017
-647,44,446,Health and personal care stores,43862.0,1218.388888888889,2017
-648,44,448,Clothing and clothing accessories stores,26464.0,735.1111111111112,2017
-649,45,451,"Sporting goods, hobby, book and music stores",29393.0,816.4722222222222,2017
-650,45,452,General merchandise stores,37283.0,1035.638888888889,2017
-651,45,453,Miscellaneous store retailers,32610.0,905.8333333333334,2017
-652,48-49,nan,Transportation and warehousing,66898.0,1858.2777777777776,2017
-653,48,481,Air transportation,90480.0,2513.3333333333335,2017
-654,48,483,Water transportation,88142.0,2448.388888888889,2017
-655,48,484,Truck transportation,51431.0,1428.638888888889,2017
-656,48,485,Transit and ground passenger transportation,41216.0,1144.888888888889,2017
-657,48,487,Scenic and sightseeing transportation,48230.0,1339.7222222222222,2017
-658,48,488,Support activities for transportation,65814.0,1828.1666666666667,2017
-659,49,491,Postal service,30690.0,852.5,2017
-660,49,492,Couriers and messengers,45472.0,1263.111111111111,2017
-661,49,493,Warehousing and storage,56140.0,1559.4444444444443,2017
-662,51,nan,Information,197097.0,5474.916666666667,2017
-663,51,511,"Publishing industries, except Internet",223788.0,6216.333333333333,2017
-664,51,512,Motion picture and sound recording industries,31589.0,877.4722222222222,2017
-665,51,515,"Broadcasting, except Internet",86930.0,2414.722222222222,2017
-666,51,516,Internet publishing and broadcasting,0.0,0.0,2017
-667,51,517,Telecommunications,144974.0,4027.055555555555,2017
-668,51,518,"ISPs, search portals, and data processing",122645.0,3406.805555555555,2017
-669,51,519,Other information services,216137.0,6003.805555555556,2017
-670,52,nan,Finance and insurance,113754.0,3159.8333333333335,2017
-671,52,522,Credit intermediation and related activities,102015.0,2833.75,2017
-672,52,523,"Securities, commodity contracts, investments",172682.0,4796.722222222222,2017
-673,52,524,Insurance carriers and related activities,96808.0,2689.111111111111,2017
-674,53,nan,Real estate and rental and leasing,62791.0,1744.1944444444443,2017
-675,53,531,Real estate,64529.0,1792.4722222222224,2017
-676,53,532,Rental and leasing services,53520.0,1486.6666666666667,2017
-677,53,533,Lessors of nonfinancial intangible asset,116898.0,3247.1666666666665,2017
-678,54,nan,Professional and technical services,104371.0,2899.194444444445,2017
-679,54,541,Professional and technical services,104371.0,2899.194444444445,2017
-680,55,nan,Management of companies and enterprises,117189.0,3255.25,2017
-681,55,551,Management of companies and enterprises,117189.0,3255.25,2017
-682,56,nan,Administrative and waste services,56770.0,1576.9444444444443,2017
-683,56,561,Administrative and support services,56433.0,1567.5833333333333,2017
-684,56,562,Waste management and remediation service,64538.0,1792.7222222222224,2017
-685,62,nan,Healthcare and social assistance,57114.0,1586.5,2017
-686,62,621,Ambulatory healthcare services,68324.0,1897.888888888889,2017
-687,62,622,Hospitals,87202.0,2422.277777777778,2017
-688,62,623,Nursing and residential care facilities,36921.0,1025.5833333333333,2017
-689,62,624,Social assistance,28550.0,793.0555555555555,2017
-690,71,nan,"Arts, entertainment, and recreation",42910.0,1191.9444444444446,2017
-691,71,711,Performing arts and spectator sports,86992.0,2416.4444444444443,2017
-692,71,712,"Museums, historical sites, zoos, and parks",39573.0,1099.25,2017
-693,71,713,"Amusements, gambling, and recreation",23873.0,663.1388888888889,2017
-694,72,nan,Accommodation and food services,27325.0,759.0277777777778,2017
-695,72,721,Accommodation,37757.0,1048.8055555555554,2017
-696,72,722,Food services and drinking places,25798.0,716.6111111111112,2017
-697,81,nan,"Other services, except public administration",45617.0,1267.138888888889,2017
-698,81,811,Repair and maintenance,51587.0,1432.9722222222224,2017
-699,81,812,Personal and laundry services,32253.0,895.9166666666666,2017
-700,81,813,Membership associations and organization,58609.0,1628.0277777777776,2017
-701,81,814,Private households,40321.0,1120.0277777777778,2017
-702,msb,,Min Wage for Small Business w/ Bene or Tips,17520.0,486.6666666666667,2011
-703,msb,,Min Wage for Small Business w/ Bene or Tips,18080.0,502.22222222222223,2012
-704,msb,,Min Wage for Small Business w/ Bene or Tips,18380.0,510.5555555555556,2013
-705,msb,,Min Wage for Small Business w/ Bene or Tips,18640.0,517.7777777777777,2014
-706,msb,,Min Wage for Small Business w/ Bene or Tips,20000.0,555.5555555555555,2015
-707,msb,,Min Wage for Small Business w/ Bene or Tips,21000.0,583.3333333333334,2016
-708,msb,,Min Wage for Small Business w/ Bene or Tips,22000.0,611.1111111111111,2017
-709,ms,,Min Wage for Small Business,17520.0,486.6666666666667,2011
-710,ms,,Min Wage for Small Business,18080.0,502.22222222222223,2012
-711,ms,,Min Wage for Small Business,18380.0,510.5555555555556,2013
-712,ms,,Min Wage for Small Business,18640.0,517.7777777777777,2014
-713,ms,,Min Wage for Small Business,22000.0,611.1111111111111,2015
-714,ms,,Min Wage for Small Business,24000.0,666.6666666666666,2016
-715,ms,,Min Wage for Small Business,26000.0,722.2222222222222,2017
-716,mlb,,Min Wage for Large Business w/ Bene,17520.0,486.6666666666667,2011
-717,mlb,,Min Wage for Large Business w/ Bene,18080.0,502.22222222222223,2012
-718,mlb,,Min Wage for Large Business w/ Bene,18380.0,510.5555555555556,2013
-719,mlb,,Min Wage for Large Business w/ Bene,18640.0,517.7777777777777,2014
-720,mlb,,Min Wage for Large Business w/ Bene,22000.0,611.1111111111111,2015
-721,mlb,,Min Wage for Large Business w/ Bene,25000.0,694.4444444444445,2016
-722,mlb,,Min Wage for Large Business w/ Bene,27000.0,750.0,2017
-723,ml,,Min Wage for Large Business,17520.0,486.6666666666667,2011
-724,ml,,Min Wage for Large Business,18080.0,502.22222222222223,2012
-725,ml,,Min Wage for Large Business,18380.0,510.5555555555556,2013
-726,ml,,Min Wage for Large Business,18640.0,517.7777777777777,2014
-727,ml,,Min Wage for Large Business,22000.0,611.1111111111111,2015
-728,ml,,Min Wage for Large Business,26000.0,722.2222222222222,2016
-729,ml,,Min Wage for Large Business,30000.0,833.3333333333334,2017
+2_digit_naics,3_digit_naics,industry,avg_wage,monthly_rent_allowance,year
+11,nan,"Agriculture, forestry, fishing and hunting",76911.0,2136.4166666666665,2011
+11,111.0,Crop production,27115.0,753.1944444444445,2011
+11,112.0,Animal production,30803.0,855.6388888888888,2011
+11,113.0,Forestry and logging,183894.0,5108.166666666667,2011
+11,114.0,"Fishing, hunting and trapping",132929.0,3692.472222222222,2011
+11,115.0,Agriculture and forestry support activities,28755.0,798.75,2011
+23,nan,Construction,60962.0,1693.388888888889,2011
+23,236.0,Construction of buildings,63458.0,1762.7222222222224,2011
+23,237.0,Heavy and civil engineering construction,76859.0,2134.972222222222,2011
+23,238.0,Specialty trade contractors,57086.0,1585.7222222222224,2011
+31-33,nan,Manufacturing,78272.0,2174.222222222222,2011
+31,311.0,Food manufacturing,52600.0,1461.111111111111,2011
+31,312.0,Beverage and tobacco product manufacturing,54763.0,1521.1944444444443,2011
+31,313.0,Textile mills,41718.0,1158.8333333333333,2011
+31,314.0,Textile product mills,42075.0,1168.75,2011
+31,315.0,Apparel manufacturing,39346.0,1092.9444444444446,2011
+31,316.0,Leather and allied product manufacturing,41668.0,1157.4444444444446,2011
+32,321.0,Wood product manufacturing,50376.0,1399.3333333333333,2011
+32,322.0,Paper manufacturing,55131.0,1531.4166666666667,2011
+32,323.0,Printing and related support activities,50040.0,1390.0,2011
+32,324.0,Petroleum and coal products manufacturing,69988.0,1944.111111111111,2011
+32,325.0,Chemical manufacturing,92188.0,2560.777777777778,2011
+32,326.0,Plastics and rubber products manufacturing,45353.0,1259.8055555555554,2011
+32,327.0,Nonmetallic mineral product manufacturing,52533.0,1459.25,2011
+33,331.0,Primary metal manufacturing,68335.0,1898.1944444444443,2011
+33,332.0,Fabricated metal product manufacturing,50198.0,1394.388888888889,2011
+33,333.0,Machinery manufacturing,66121.0,1836.6944444444443,2011
+33,334.0,Computer and electronic product manufacturing,86007.0,2389.0833333333335,2011
+33,335.0,Electrical equipment and appliance mfg.,68181.0,1893.9166666666667,2011
+33,336.0,Transportation equipment manufacturing,99723.0,2770.0833333333335,2011
+33,337.0,Furniture and related product manufacturing,40447.0,1123.5277777777778,2011
+33,339.0,Miscellaneous manufacturing,63033.0,1750.9166666666667,2011
+42,nan,Wholesale trade,76745.0,2131.8055555555557,2011
+42,423.0,"Merchant wholesalers, durable goods",78608.0,2183.5555555555557,2011
+42,424.0,"Merchant wholesalers, nondurable goods",64622.0,1795.0555555555557,2011
+42,425.0,Electronic markets and agents and broker,91487.0,2541.3055555555557,2011
+44-45,nan,Retail trade,38205.0,1061.25,2011
+44,441.0,Motor vehicle and parts dealers,49093.0,1363.6944444444446,2011
+44,442.0,Furniture and home furnishings stores,35469.0,985.25,2011
+44,443.0,Electronics and appliance stores,43433.0,1206.4722222222222,2011
+44,444.0,Building material and garden supply stores,33843.0,940.0833333333334,2011
+44,445.0,Food and beverage stores,28963.0,804.5277777777778,2011
+44,446.0,Health and personal care stores,37540.0,1042.7777777777778,2011
+44,447.0,Gasoline stations,21504.0,597.3333333333334,2011
+44,448.0,Clothing and clothing accessories stores,21385.0,594.0277777777777,2011
+45,451.0,"Sporting goods, hobby, book and music stores",21493.0,597.0277777777777,2011
+45,452.0,General merchandise stores,32298.0,897.1666666666666,2011
+45,453.0,Miscellaneous store retailers,25980.0,721.6666666666666,2011
+45,454.0,Nonstore retailers,96346.0,2676.277777777778,2011
+48-49,nan,Transportation and warehousing,56649.0,1573.5833333333333,2011
+48,481.0,Air transportation,73360.0,2037.7777777777776,2011
+48,483.0,Water transportation,74701.0,2075.027777777778,2011
+48,484.0,Truck transportation,43402.0,1205.611111111111,2011
+48,485.0,Transit and ground passenger transportation,29306.0,814.0555555555555,2011
+48,487.0,Scenic and sightseeing transportation,37060.0,1029.4444444444446,2011
+48,488.0,Support activities for transportation,63312.0,1758.6666666666667,2011
+49,491.0,Postal service,29389.0,816.3611111111112,2011
+49,492.0,Couriers and messengers,40543.0,1126.1944444444446,2011
+49,493.0,Warehousing and storage,52235.0,1450.9722222222224,2011
+51,nan,Information,139724.0,3881.222222222222,2011
+51,511.0,"Publishing industries, except Internet",164300.0,4563.888888888889,2011
+51,512.0,Motion picture and sound recording industries,33919.0,942.1944444444445,2011
+51,515.0,"Broadcasting, except Internet",76322.0,2120.0555555555557,2011
+51,516.0,Internet publishing and broadcasting,0.0,0.0,2011
+51,517.0,Telecommunications,97607.0,2711.3055555555557,2011
+51,518.0,"ISPs, search portals, and data processing",76173.0,2115.9166666666665,2011
+51,519.0,Other information services,111431.0,3095.305555555555,2011
+52,nan,Finance and insurance,90918.0,2525.5,2011
+52,522.0,Credit intermediation and related activities,75534.0,2098.1666666666665,2011
+52,523.0,"Securities, commodity contracts, investments",139075.0,3863.194444444445,2011
+52,524.0,Insurance carriers and related activities,84234.0,2339.8333333333335,2011
+53,nan,Real estate and rental and leasing,49754.0,1382.0555555555557,2011
+53,531.0,Real estate,50275.0,1396.5277777777776,2011
+53,532.0,Rental and leasing services,47261.0,1312.8055555555554,2011
+53,533.0,Lessors of nonfinancial intangible asset,63265.0,1757.361111111111,2011
+54,nan,Professional and technical services,86648.0,2406.888888888889,2011
+54,541.0,Professional and technical services,86648.0,2406.888888888889,2011
+55,nan,Management of companies and enterprises,109034.0,3028.722222222222,2011
+55,551.0,Management of companies and enterprises,109034.0,3028.722222222222,2011
+56,nan,Administrative and waste services,47313.0,1314.25,2011
+56,561.0,Administrative and support services,46924.0,1303.4444444444446,2011
+56,562.0,Waste management and remediation service,55381.0,1538.361111111111,2011
+61,nan,Educational services,36372.0,1010.3333333333334,2011
+61,611.0,Educational services,36372.0,1010.3333333333334,2011
+62,nan,Health care and social assistance,51358.0,1426.611111111111,2011
+62,621.0,Ambulatory health care services,58978.0,1638.2777777777776,2011
+62,622.0,Hospitals,73983.0,2055.0833333333335,2011
+62,623.0,Nursing and residential care facilities,30899.0,858.3055555555555,2011
+62,624.0,Social assistance,25470.0,707.5,2011
+71,nan,"Arts, entertainment, and recreation",33294.0,924.8333333333334,2011
+71,711.0,Performing arts and spectator sports,66676.0,1852.111111111111,2011
+71,712.0,"Museums, historical sites, zoos, and parks",34190.0,949.7222222222222,2011
+71,713.0,"Amusements, gambling, and recreation",19184.0,532.8888888888889,2011
+72,nan,Accommodation and food services,21352.0,593.1111111111111,2011
+72,721.0,Accommodation,29844.0,829.0,2011
+72,722.0,Food services and drinking places,19911.0,553.0833333333334,2011
+81,nan,"Other services, except public administration",30627.0,850.75,2011
+81,811.0,Repair and maintenance,43713.0,1214.25,2011
+81,812.0,Personal and laundry services,28708.0,797.4444444444445,2011
+81,813.0,Membership associations and organization,46470.0,1290.8333333333333,2011
+81,814.0,Private households,15803.0,438.97222222222223,2011
+TOTAL,nan,Total,65827.0,1828.5277777777776,2012
+11,nan,"Agriculture, forestry, fishing and hunting",82619.0,2294.972222222222,2012
+11,111.0,Crop production,27566.0,765.7222222222222,2012
+11,112.0,Animal production,29939.0,831.6388888888888,2012
+11,113.0,Forestry and logging,316375.0,8788.194444444443,2012
+11,114.0,"Fishing, hunting and trapping",131386.0,3649.6111111111113,2012
+11,115.0,Agriculture and forestry support activities,27398.0,761.0555555555555,2012
+23,nan,Construction,61203.0,1700.0833333333333,2012
+23,236.0,Construction of buildings,64992.0,1805.3333333333333,2012
+23,237.0,Heavy and civil engineering construction,77897.0,2163.8055555555557,2012
+23,238.0,Specialty trade contractors,56277.0,1563.25,2012
+31-33,nan,Manufacturing,79058.0,2196.0555555555557,2012
+31,311.0,Food manufacturing,53957.0,1498.8055555555557,2012
+31,312.0,Beverage and tobacco product manufacturing,55398.0,1538.8333333333333,2012
+31,313.0,Textile mills,39832.0,1106.4444444444446,2012
+31,314.0,Textile product mills,43806.0,1216.8333333333333,2012
+31,315.0,Apparel manufacturing,41385.0,1149.5833333333333,2012
+31,316.0,Leather and allied product manufacturing,38656.0,1073.7777777777778,2012
+32,321.0,Wood product manufacturing,49195.0,1366.5277777777776,2012
+32,322.0,Paper manufacturing,56424.0,1567.3333333333333,2012
+32,323.0,Printing and related support activities,50529.0,1403.5833333333333,2012
+32,324.0,Petroleum and coal products manufacturing,74236.0,2062.111111111111,2012
+32,325.0,Chemical manufacturing,68659.0,1907.1944444444443,2012
+32,326.0,Plastics and rubber products manufacturing,44685.0,1241.25,2012
+32,327.0,Nonmetallic mineral product manufacturing,53690.0,1491.388888888889,2012
+33,331.0,Primary metal manufacturing,80766.0,2243.5,2012
+33,332.0,Fabricated metal product manufacturing,52789.0,1466.361111111111,2012
+33,333.0,Machinery manufacturing,67227.0,1867.4166666666667,2012
+33,334.0,Computer and electronic product manufacturing,88567.0,2460.1944444444443,2012
+33,335.0,Electrical equipment and appliance mfg.,66829.0,1856.361111111111,2012
+33,336.0,Transportation equipment manufacturing,99712.0,2769.777777777778,2012
+33,337.0,Furniture and related product manufacturing,39534.0,1098.1666666666667,2012
+33,339.0,Miscellaneous manufacturing,64857.0,1801.5833333333333,2012
+42,nan,Wholesale trade,78730.0,2186.9444444444443,2012
+42,423.0,"Merchant wholesalers, durable goods",80254.0,2229.277777777778,2012
+42,424.0,"Merchant wholesalers, nondurable goods",65904.0,1830.6666666666667,2012
+42,425.0,Electronic markets and agents and broker,94836.0,2634.3333333333335,2012
+44-45,nan,Retail trade,41167.0,1143.5277777777778,2012
+44,441.0,Motor vehicle and parts dealers,50183.0,1393.9722222222224,2012
+44,442.0,Furniture and home furnishings stores,37196.0,1033.2222222222222,2012
+44,443.0,Electronics and appliance stores,44855.0,1245.9722222222222,2012
+44,444.0,Building material and garden supply stores,34519.0,958.8611111111112,2012
+44,445.0,Food and beverage stores,29558.0,821.0555555555555,2012
+44,446.0,Health and personal care stores,38240.0,1062.2222222222222,2012
+44,447.0,Gasoline stations,21658.0,601.6111111111111,2012
+44,448.0,Clothing and clothing accessories stores,21697.0,602.6944444444445,2012
+45,451.0,"Sporting goods, hobby, book and music stores",21850.0,606.9444444444445,2012
+45,452.0,General merchandise stores,31921.0,886.6944444444445,2012
+45,453.0,Miscellaneous store retailers,26953.0,748.6944444444445,2012
+45,454.0,Nonstore retailers,102727.0,2853.527777777778,2012
+48-49,nan,Transportation and warehousing,57323.0,1592.3055555555557,2012
+48,481.0,Air transportation,74732.0,2075.888888888889,2012
+48,483.0,Water transportation,70263.0,1951.75,2012
+48,484.0,Truck transportation,44971.0,1249.1944444444446,2012
+48,485.0,Transit and ground passenger transportation,30756.0,854.3333333333334,2012
+48,487.0,Scenic and sightseeing transportation,41925.0,1164.5833333333333,2012
+48,488.0,Support activities for transportation,62412.0,1733.6666666666667,2012
+49,492.0,Couriers and messengers,40964.0,1137.888888888889,2012
+49,493.0,Warehousing and storage,56400.0,1566.6666666666667,2012
+51,nan,Information,154003.0,4277.861111111111,2012
+51,511.0,"Publishing industries, except Internet",180193.0,5005.361111111111,2012
+51,512.0,Motion picture and sound recording industries,32679.0,907.75,2012
+51,515.0,"Broadcasting, except Internet",79578.0,2210.5,2012
+51,516.0,Internet publishing and broadcasting,0.0,0.0,2012
+51,517.0,Telecommunications,111885.0,3107.9166666666665,2012
+51,518.0,"ISPs, search portals, and data processing",76858.0,2134.9444444444443,2012
+51,519.0,Other information services,126960.0,3526.6666666666665,2012
+52,nan,Finance and insurance,96662.0,2685.0555555555557,2012
+52,522.0,Credit intermediation and related activities,84138.0,2337.1666666666665,2012
+52,523.0,"Securities, commodity contracts, investments",145493.0,4041.472222222222,2012
+52,524.0,Insurance carriers and related activities,86353.0,2398.6944444444443,2012
+53,nan,Real estate and rental and leasing,52098.0,1447.1666666666667,2012
+53,531.0,Real estate,53289.0,1480.25,2012
+53,532.0,Rental and leasing services,46392.0,1288.6666666666667,2012
+53,533.0,Lessors of nonfinancial intangible asset,70419.0,1956.0833333333333,2012
+54,nan,Professional and technical services,90140.0,2503.888888888889,2012
+54,541.0,Professional and technical services,90140.0,2503.888888888889,2012
+55,nan,Management of companies and enterprises,112578.0,3127.1666666666665,2012
+55,551.0,Management of companies and enterprises,112578.0,3127.1666666666665,2012
+56,nan,Administrative and waste services,50137.0,1392.6944444444443,2012
+56,561.0,Administrative and support services,49852.0,1384.7777777777776,2012
+56,562.0,Waste management and remediation service,56674.0,1574.2777777777776,2012
+61,nan,Educational services,36609.0,1016.9166666666666,2012
+61,611.0,Educational services,36609.0,1016.9166666666666,2012
+62,nan,Health care and social assistance,52481.0,1457.8055555555557,2012
+62,621.0,Ambulatory health care services,60872.0,1690.888888888889,2012
+62,622.0,Hospitals,75799.0,2105.527777777778,2012
+62,623.0,Nursing and residential care facilities,31262.0,868.3888888888888,2012
+62,624.0,Social assistance,26020.0,722.7777777777778,2012
+71,nan,"Arts, entertainment, and recreation",33200.0,922.2222222222222,2012
+71,711.0,Performing arts and spectator sports,66366.0,1843.5,2012
+71,712.0,"Museums, historical sites, zoos, and parks",34044.0,945.6666666666666,2012
+71,713.0,"Amusements, gambling, and recreation",19321.0,536.6944444444445,2012
+72,nan,Accommodation and food services,21994.0,610.9444444444445,2012
+72,721.0,Accommodation,30308.0,841.8888888888888,2012
+72,722.0,Food services and drinking places,20630.0,573.0555555555555,2012
+81,nan,"Other services, except public administration",31849.0,884.6944444444445,2012
+81,811.0,Repair and maintenance,44406.0,1233.5,2012
+81,812.0,Personal and laundry services,29354.0,815.3888888888888,2012
+81,813.0,Membership associations and organization,48691.0,1352.5277777777778,2012
+81,814.0,Private households,16269.0,451.9166666666667,2012
+GOV,nan,GOVERNMENT,60207.0,1672.4166666666667,2012
+NEC,nan,NOT ELSEWHERE CLASSIFIED,83148.0,2309.6666666666665,2012
+TOTAL,nan,Total,67241.0,1867.8055555555557,2013
+11,nan,"Agriculture, forestry, fishing and hunting",72447.0,2012.4166666666667,2013
+11,111.0,Crop production,29316.0,814.3333333333334,2013
+11,112.0,Animal production,30298.0,841.6111111111112,2013
+11,113.0,Forestry and logging,205555.0,5709.86111111111,2013
+11,114.0,"Fishing, hunting and trapping",115181.0,3199.472222222222,2013
+11,115.0,Agriculture and forestry support activities,31024.0,861.7777777777778,2013
+23,nan,Construction,61768.0,1715.7777777777776,2013
+23,236.0,Construction of buildings,64865.0,1801.8055555555557,2013
+23,237.0,Heavy and civil engineering construction,77008.0,2139.111111111111,2013
+23,238.0,Specialty trade contractors,57527.0,1597.9722222222224,2013
+31-33,nan,Manufacturing,81446.0,2262.388888888889,2013
+31,311.0,Food manufacturing,52561.0,1460.0277777777776,2013
+31,312.0,Beverage and tobacco product manufacturing,53498.0,1486.0555555555557,2013
+31,313.0,Textile mills,36063.0,1001.75,2013
+31,314.0,Textile product mills,44293.0,1230.361111111111,2013
+31,315.0,Apparel manufacturing,41846.0,1162.388888888889,2013
+31,316.0,Leather and allied product manufacturing,39412.0,1094.7777777777778,2013
+32,321.0,Wood product manufacturing,52519.0,1458.861111111111,2013
+32,322.0,Paper manufacturing,57502.0,1597.2777777777776,2013
+32,323.0,Printing and related support activities,50911.0,1414.1944444444443,2013
+32,324.0,Petroleum and coal products manufacturing,88604.0,2461.222222222222,2013
+32,325.0,Chemical manufacturing,70256.0,1951.5555555555557,2013
+32,326.0,Plastics and rubber products manufacturing,45187.0,1255.1944444444446,2013
+32,327.0,Nonmetallic mineral product manufacturing,55014.0,1528.1666666666667,2013
+33,331.0,Primary metal manufacturing,69466.0,1929.611111111111,2013
+33,332.0,Fabricated metal product manufacturing,52284.0,1452.3333333333333,2013
+33,333.0,Machinery manufacturing,67230.0,1867.5,2013
+33,334.0,Computer and electronic product manufacturing,90076.0,2502.111111111111,2013
+33,335.0,Electrical equipment and appliance mfg.,68069.0,1890.8055555555557,2013
+33,336.0,Transportation equipment manufacturing,104609.0,2905.805555555555,2013
+33,337.0,Furniture and related product manufacturing,41340.0,1148.3333333333333,2013
+33,339.0,Miscellaneous manufacturing,66858.0,1857.1666666666667,2013
+42,nan,Wholesale trade,78860.0,2190.5555555555557,2013
+42,423.0,"Merchant wholesalers, durable goods",80343.0,2231.75,2013
+42,424.0,"Merchant wholesalers, nondurable goods",65605.0,1822.361111111111,2013
+42,425.0,Electronic markets and agents and broker,94861.0,2635.027777777778,2013
+44-45,nan,Retail trade,44420.0,1233.888888888889,2013
+44,441.0,Motor vehicle and parts dealers,52226.0,1450.7222222222224,2013
+44,442.0,Furniture and home furnishings stores,38599.0,1072.1944444444446,2013
+44,443.0,Electronics and appliance stores,46821.0,1300.5833333333333,2013
+44,444.0,Building material and garden supply stores,34952.0,970.8888888888888,2013
+44,445.0,Food and beverage stores,30194.0,838.7222222222222,2013
+44,446.0,Health and personal care stores,40477.0,1124.361111111111,2013
+44,447.0,Gasoline stations,21638.0,601.0555555555555,2013
+44,448.0,Clothing and clothing accessories stores,22667.0,629.6388888888889,2013
+45,451.0,"Sporting goods, hobby, book and music stores",22325.0,620.1388888888889,2013
+45,452.0,General merchandise stores,31826.0,884.0555555555555,2013
+45,453.0,Miscellaneous store retailers,27287.0,757.9722222222222,2013
+45,454.0,Nonstore retailers,107678.0,2991.055555555555,2013
+48-49,nan,Transportation and warehousing,58781.0,1632.8055555555557,2013
+48,481.0,Air transportation,79201.0,2200.027777777778,2013
+48,483.0,Water transportation,71872.0,1996.4444444444443,2013
+48,484.0,Truck transportation,45488.0,1263.5555555555554,2013
+48,485.0,Transit and ground passenger transportation,31861.0,885.0277777777778,2013
+48,487.0,Scenic and sightseeing transportation,40224.0,1117.3333333333333,2013
+48,488.0,Support activities for transportation,59904.0,1664.0,2013
+49,491.0,Postal service,27006.0,750.1666666666666,2013
+49,492.0,Couriers and messengers,42851.0,1190.3055555555554,2013
+49,493.0,Warehousing and storage,60405.0,1677.9166666666667,2013
+51,nan,Information,157376.0,4371.555555555556,2013
+51,511.0,"Publishing industries, except Internet",185398.0,5149.944444444444,2013
+51,512.0,Motion picture and sound recording industries,31933.0,887.0277777777778,2013
+51,515.0,"Broadcasting, except Internet",80934.0,2248.1666666666665,2013
+51,516.0,Internet publishing and broadcasting,0.0,0.0,2013
+51,517.0,Telecommunications,108525.0,3014.5833333333335,2013
+51,518.0,"ISPs, search portals, and data processing",81586.0,2266.277777777778,2013
+51,519.0,Other information services,124411.0,3455.8611111111113,2013
+52,nan,Finance and insurance,99050.0,2751.3888888888887,2013
+52,522.0,Credit intermediation and related activities,83993.0,2333.138888888889,2013
+52,524.0,Insurance carriers and related activities,88985.0,2471.8055555555557,2013
+53,nan,Real estate and rental and leasing,53115.0,1475.4166666666667,2013
+53,531.0,Real estate,54216.0,1506.0,2013
+53,532.0,Rental and leasing services,47497.0,1319.361111111111,2013
+53,533.0,Lessors of nonfinancial intangible asset,73998.0,2055.5,2013
+54,nan,Professional and technical services,91942.0,2553.9444444444443,2013
+54,541.0,Professional and technical services,91942.0,2553.9444444444443,2013
+55,nan,Management of companies and enterprises,110805.0,3077.9166666666665,2013
+55,551.0,Management of companies and enterprises,110805.0,3077.9166666666665,2013
+56,nan,Administrative and waste services,50558.0,1404.388888888889,2013
+56,561.0,Administrative and support services,50205.0,1394.5833333333333,2013
+56,562.0,Waste management and remediation service,58573.0,1627.0277777777776,2013
+61,nan,Educational services,37680.0,1046.6666666666667,2013
+61,611.0,Educational services,37680.0,1046.6666666666667,2013
+62,nan,Health care and social assistance,53069.0,1474.138888888889,2013
+62,621.0,Ambulatory health care services,61319.0,1703.3055555555557,2013
+62,622.0,Hospitals,77804.0,2161.222222222222,2013
+62,623.0,Nursing and residential care facilities,32426.0,900.7222222222222,2013
+62,624.0,Social assistance,26318.0,731.0555555555555,2013
+71,nan,"Arts, entertainment, and recreation",36873.0,1024.25,2013
+71,711.0,Performing arts and spectator sports,74472.0,2068.6666666666665,2013
+71,712.0,"Museums, historical sites, zoos, and parks",34989.0,971.9166666666666,2013
+71,713.0,"Amusements, gambling, and recreation",20772.0,577.0,2013
+72,nan,Accommodation and food services,22513.0,625.3611111111111,2013
+72,721.0,Accommodation,31504.0,875.1111111111112,2013
+72,722.0,Food services and drinking places,21086.0,585.7222222222223,2013
+81,nan,"Other services, except public administration",33489.0,930.25,2013
+81,811.0,Repair and maintenance,46756.0,1298.7777777777778,2013
+81,812.0,Personal and laundry services,30275.0,840.9722222222222,2013
+81,813.0,Membership associations and organization,51381.0,1427.25,2013
+81,814.0,Private households,17073.0,474.25,2013
+GOV,nan,GOVERNMENT,61859.0,1718.3055555555557,2013
+NEC,nan,NOT ELSEWHERE CLASSIFIED,87703.0,2436.1944444444443,2013
+TOTAL,nan,TOTAL,70589.0,1960.8055555555557,2014
+11,nan,"Agriculture, forestry, fishing and hunting",70430.0,1956.388888888889,2014
+11,111.0,Crop production,30371.0,843.6388888888888,2014
+11,112.0,Animal production,32758.0,909.9444444444445,2014
+11,113.0,Forestry and logging,215949.0,5998.583333333333,2014
+11,114.0,"Fishing, hunting and trapping",111657.0,3101.5833333333335,2014
+11,115.0,Agriculture and forestry support activities,36024.0,1000.6666666666666,2014
+23,nan,Construction,63542.0,1765.0555555555557,2014
+23,236.0,Construction of buildings,67061.0,1862.8055555555557,2014
+23,237.0,Heavy and civil engineering construction,78428.0,2178.5555555555557,2014
+23,238.0,Specialty trade contractors,59112.0,1642.0,2014
+31-33,nan,Manufacturing,85909.0,2386.361111111111,2014
+31,311.0,Food manufacturing,53432.0,1484.2222222222224,2014
+31,312.0,Beverage and tobacco product manufacturing,49861.0,1385.0277777777776,2014
+31,313.0,Textile mills,37938.0,1053.8333333333333,2014
+31,314.0,Textile product mills,46140.0,1281.6666666666667,2014
+31,315.0,Apparel manufacturing,43270.0,1201.9444444444446,2014
+31,316.0,Leather and allied product manufacturing,41559.0,1154.4166666666667,2014
+32,321.0,Wood product manufacturing,51588.0,1433.0,2014
+32,322.0,Paper manufacturing,61059.0,1696.0833333333333,2014
+32,323.0,Printing and related support activities,52468.0,1457.4444444444443,2014
+32,324.0,Petroleum and coal products manufacturing,95008.0,2639.111111111111,2014
+32,325.0,Chemical manufacturing,72295.0,2008.1944444444443,2014
+32,326.0,Plastics and rubber products manufacturing,45965.0,1276.8055555555554,2014
+32,327.0,Nonmetallic mineral product manufacturing,57102.0,1586.1666666666667,2014
+33,331.0,Primary metal manufacturing,70783.0,1966.1944444444443,2014
+33,332.0,Fabricated metal product manufacturing,55414.0,1539.2777777777776,2014
+33,333.0,Machinery manufacturing,70642.0,1962.2777777777776,2014
+33,334.0,Computer and electronic product manufacturing,93148.0,2587.4444444444443,2014
+33,335.0,Electrical equipment and appliance mfg.,72311.0,2008.638888888889,2014
+33,336.0,Transportation equipment manufacturing,113114.0,3142.055555555555,2014
+33,337.0,Furniture and related product manufacturing,41686.0,1157.9444444444446,2014
+33,339.0,Miscellaneous manufacturing,67329.0,1870.25,2014
+42,nan,Wholesale trade,81435.0,2262.0833333333335,2014
+42,423.0,"Merchant wholesalers, durable goods",82722.0,2297.8333333333335,2014
+42,424.0,"Merchant wholesalers, nondurable goods",66586.0,1849.611111111111,2014
+42,425.0,Electronic markets and agents and broker,99481.0,2763.3611111111113,2014
+44-45,nan,Retail trade,48346.0,1342.9444444444446,2014
+44,441.0,Motor vehicle and parts dealers,53548.0,1487.4444444444443,2014
+44,442.0,Furniture and home furnishings stores,41423.0,1150.638888888889,2014
+44,443.0,Electronics and appliance stores,48402.0,1344.5,2014
+44,444.0,Building material and garden supply stores,35125.0,975.6944444444445,2014
+44,445.0,Food and beverage stores,30652.0,851.4444444444445,2014
+44,446.0,Health and personal care stores,40809.0,1133.5833333333333,2014
+44,447.0,Gasoline stations,22110.0,614.1666666666666,2014
+44,448.0,Clothing and clothing accessories stores,24292.0,674.7777777777777,2014
+45,451.0,"Sporting goods, hobby, book and music stores",23613.0,655.9166666666666,2014
+45,452.0,General merchandise stores,31855.0,884.8611111111112,2014
+45,453.0,Miscellaneous store retailers,28198.0,783.2777777777778,2014
+45,454.0,Nonstore retailers,113622.0,3156.1666666666665,2014
+48-49,nan,Transportation and warehousing,59277.0,1646.5833333333333,2014
+48,481.0,Air transportation,81199.0,2255.527777777778,2014
+48,483.0,Water transportation,72828.0,2023.0,2014
+48,484.0,Truck transportation,46783.0,1299.5277777777778,2014
+48,485.0,Transit and ground passenger transportation,32740.0,909.4444444444445,2014
+48,487.0,Scenic and sightseeing transportation,41113.0,1142.0277777777778,2014
+48,488.0,Support activities for transportation,59679.0,1657.75,2014
+49,491.0,Postal service,26128.0,725.7777777777778,2014
+49,492.0,Couriers and messengers,42902.0,1191.7222222222222,2014
+49,493.0,Warehousing and storage,56272.0,1563.111111111111,2014
+51,nan,Information,173746.0,4826.277777777778,2014
+51,511.0,"Publishing industries, except Internet",206152.0,5726.444444444444,2014
+51,512.0,Motion picture and sound recording industries,29407.0,816.8611111111112,2014
+51,515.0,"Broadcasting, except Internet",80759.0,2243.3055555555557,2014
+51,516.0,Internet publishing and broadcasting,0.0,0.0,2014
+51,517.0,Telecommunications,119664.0,3324.0,2014
+51,518.0,"ISPs, search portals, and data processing",103135.0,2864.8611111111113,2014
+51,519.0,Other information services,132417.0,3678.25,2014
+52,nan,Finance and insurance,104180.0,2893.8888888888887,2014
+52,522.0,Credit intermediation and related activities,83921.0,2331.138888888889,2014
+52,524.0,Insurance carriers and related activities,89749.0,2493.027777777778,2014
+53,nan,Real estate and rental and leasing,55297.0,1536.0277777777776,2014
+53,531.0,Real estate,56483.0,1568.9722222222224,2014
+53,532.0,Rental and leasing services,49315.0,1369.861111111111,2014
+53,533.0,Lessors of nonfinancial intangible asset,60882.0,1691.1666666666667,2014
+54,nan,Professional and technical services,96120.0,2670.0,2014
+54,541.0,Professional and technical services,96120.0,2670.0,2014
+55,nan,Management of companies and enterprises,110545.0,3070.694444444445,2014
+55,551.0,Management of companies and enterprises,110545.0,3070.694444444445,2014
+56,nan,Administrative and waste services,52313.0,1453.138888888889,2014
+56,561.0,Administrative and support services,51953.0,1443.138888888889,2014
+56,562.0,Waste management and remediation service,60657.0,1684.9166666666667,2014
+61,nan,Educational services,37750.0,1048.611111111111,2014
+61,611.0,Educational services,37750.0,1048.611111111111,2014
+62,nan,Health care and social assistance,50139.0,1392.75,2014
+62,621.0,Ambulatory health care services,62474.0,1735.388888888889,2014
+62,622.0,Hospitals,79336.0,2203.777777777778,2014
+62,623.0,Nursing and residential care facilities,36242.0,1006.7222222222222,2014
+62,624.0,Social assistance,21984.0,610.6666666666666,2014
+71,nan,"Arts, entertainment, and recreation",39909.0,1108.5833333333333,2014
+71,711.0,Performing arts and spectator sports,82266.0,2285.1666666666665,2014
+71,712.0,"Museums, historical sites, zoos, and parks",36594.0,1016.5,2014
+71,713.0,"Amusements, gambling, and recreation",22091.0,613.6388888888889,2014
+72,nan,Accommodation and food services,23250.0,645.8333333333334,2014
+72,721.0,Accommodation,33248.0,923.5555555555555,2014
+72,722.0,Food services and drinking places,21764.0,604.5555555555555,2014
+81,nan,"Other services, except public administration",41828.0,1161.888888888889,2014
+81,811.0,Repair and maintenance,46865.0,1301.8055555555554,2014
+81,812.0,Personal and laundry services,30192.0,838.6666666666666,2014
+81,813.0,Membership associations and organization,53460.0,1485.0,2014
+81,814.0,Private households,35208.0,978.0,2014
+TOTAL,nan,TOTAL,72451.0,2012.5277777777776,2015
+11,nan,"Agriculture, forestry, fishing and hunting",67416.0,1872.6666666666667,2015
+11,111.0,Crop production,30446.0,845.7222222222222,2015
+11,112.0,Animal production,34719.0,964.4166666666666,2015
+11,113.0,Forestry and logging,204592.0,5683.11111111111,2015
+11,114.0,"Fishing, hunting and trapping",96225.0,2672.9166666666665,2015
+11,115.0,Agriculture and forestry support activities,35524.0,986.7777777777778,2015
+23,nan,Construction,66001.0,1833.361111111111,2015
+23,236.0,Construction of buildings,70111.0,1947.5277777777776,2015
+23,237.0,Heavy and civil engineering construction,79800.0,2216.6666666666665,2015
+23,238.0,Specialty trade contractors,61935.0,1720.4166666666667,2015
+31-33,nan,Manufacturing,85321.0,2370.027777777778,2015
+31,311.0,Food manufacturing,54010.0,1500.2777777777776,2015
+31,312.0,Beverage and tobacco product manufacturing,49618.0,1378.2777777777776,2015
+31,313.0,Textile mills,37002.0,1027.8333333333333,2015
+31,314.0,Textile product mills,47952.0,1332.0,2015
+31,315.0,Apparel manufacturing,43574.0,1210.388888888889,2015
+31,316.0,Leather and allied product manufacturing,32401.0,900.0277777777778,2015
+32,321.0,Wood product manufacturing,53912.0,1497.5555555555557,2015
+32,322.0,Paper manufacturing,62206.0,1727.9444444444443,2015
+32,323.0,Printing and related support activities,53903.0,1497.3055555555557,2015
+32,324.0,Petroleum and coal products manufacturing,84317.0,2342.138888888889,2015
+32,325.0,Chemical manufacturing,73400.0,2038.888888888889,2015
+32,326.0,Plastics and rubber products manufacturing,48662.0,1351.7222222222222,2015
+32,327.0,Nonmetallic mineral product manufacturing,59279.0,1646.638888888889,2015
+33,331.0,Primary metal manufacturing,72568.0,2015.7777777777776,2015
+33,332.0,Fabricated metal product manufacturing,55150.0,1531.9444444444443,2015
+33,333.0,Machinery manufacturing,71503.0,1986.1944444444443,2015
+33,334.0,Computer and electronic product manufacturing,96788.0,2688.5555555555557,2015
+33,335.0,Electrical equipment and appliance mfg.,76298.0,2119.388888888889,2015
+33,336.0,Transportation equipment manufacturing,110825.0,3078.472222222222,2015
+33,337.0,Furniture and related product manufacturing,41966.0,1165.7222222222222,2015
+33,339.0,Miscellaneous manufacturing,69839.0,1939.9722222222224,2015
+42,nan,Wholesale trade,84101.0,2336.138888888889,2015
+42,423.0,"Merchant wholesalers, durable goods",86469.0,2401.9166666666665,2015
+42,424.0,"Merchant wholesalers, nondurable goods",67449.0,1873.5833333333333,2015
+42,425.0,Electronic markets and agents and broker,102831.0,2856.4166666666665,2015
+44-45,nan,Retail trade,52667.0,1462.9722222222224,2015
+44,441.0,Motor vehicle and parts dealers,53814.0,1494.8333333333333,2015
+44,442.0,Furniture and home furnishings stores,44168.0,1226.888888888889,2015
+44,443.0,Electronics and appliance stores,51775.0,1438.1944444444443,2015
+44,444.0,Building material and garden supply stores,37625.0,1045.138888888889,2015
+44,445.0,Food and beverage stores,31365.0,871.25,2015
+44,446.0,Health and personal care stores,40873.0,1135.361111111111,2015
+44,447.0,Gasoline stations,23353.0,648.6944444444445,2015
+44,448.0,Clothing and clothing accessories stores,25507.0,708.5277777777778,2015
+45,451.0,"Sporting goods, hobby, book and music stores",25846.0,717.9444444444445,2015
+45,452.0,General merchandise stores,33501.0,930.5833333333334,2015
+45,453.0,Miscellaneous store retailers,28885.0,802.3611111111112,2015
+45,454.0,Nonstore retailers,120589.0,3349.694444444445,2015
+48-49,nan,Transportation and warehousing,62124.0,1725.6666666666667,2015
+48,481.0,Air transportation,85098.0,2363.8333333333335,2015
+48,483.0,Water transportation,78918.0,2192.1666666666665,2015
+48,484.0,Truck transportation,48082.0,1335.611111111111,2015
+48,485.0,Transit and ground passenger transportation,34119.0,947.75,2015
+48,487.0,Scenic and sightseeing transportation,46044.0,1279.0,2015
+48,488.0,Support activities for transportation,62864.0,1746.2222222222224,2015
+49,492.0,Couriers and messengers,42926.0,1192.388888888889,2015
+49,493.0,Warehousing and storage,56554.0,1570.9444444444443,2015
+51,nan,Information,174003.0,4833.416666666667,2015
+51,511.0,"Publishing industries, except Internet",202617.0,5628.25,2015
+51,512.0,Motion picture and sound recording industries,32151.0,893.0833333333334,2015
+51,515.0,"Broadcasting, except Internet",83021.0,2306.138888888889,2015
+51,516.0,Internet publishing and broadcasting,0.0,0.0,2015
+51,517.0,Telecommunications,136903.0,3802.8611111111113,2015
+51,518.0,"ISPs, search portals, and data processing",97822.0,2717.277777777778,2015
+51,519.0,Other information services,159830.0,4439.722222222222,2015
+52,nan,Finance and insurance,107680.0,2991.1111111111113,2015
+52,522.0,Credit intermediation and related activities,96166.0,2671.277777777778,2015
+52,524.0,Insurance carriers and related activities,93099.0,2586.0833333333335,2015
+53,nan,Real estate and rental and leasing,57860.0,1607.2222222222224,2015
+53,531.0,Real estate,59183.0,1643.9722222222224,2015
+53,532.0,Rental and leasing services,51250.0,1423.611111111111,2015
+53,533.0,Lessors of nonfinancial intangible asset,66122.0,1836.7222222222224,2015
+54,nan,Professional and technical services,96540.0,2681.6666666666665,2015
+54,541.0,Professional and technical services,96540.0,2681.6666666666665,2015
+55,nan,Management of companies and enterprises,113573.0,3154.805555555555,2015
+55,551.0,Management of companies and enterprises,113573.0,3154.805555555555,2015
+56,nan,Administrative and waste services,54099.0,1502.75,2015
+56,561.0,Administrative and support services,53660.0,1490.5555555555557,2015
+56,562.0,Waste management and remediation service,64127.0,1781.3055555555557,2015
+61,nan,Educational services,38863.0,1079.5277777777778,2015
+61,611.0,Educational services,38863.0,1079.5277777777778,2015
+62,nan,Health care and social assistance,52905.0,1469.5833333333333,2015
+62,621.0,Ambulatory health care services,64672.0,1796.4444444444443,2015
+62,622.0,Hospitals,82955.0,2304.3055555555557,2015
+62,623.0,Nursing and residential care facilities,34053.0,945.9166666666666,2015
+62,624.0,Social assistance,24698.0,686.0555555555555,2015
+72,nan,Accommodation and food services,24485.0,680.1388888888889,2015
+72,721.0,Accommodation,34290.0,952.5,2015
+72,722.0,Food services and drinking places,23053.0,640.3611111111111,2015
+81,nan,"Other services, except public administration",42884.0,1191.2222222222222,2015
+81,811.0,Repair and maintenance,48712.0,1353.111111111111,2015
+81,812.0,Personal and laundry services,30273.0,840.9166666666666,2015
+81,813.0,Membership associations and organization,55361.0,1537.8055555555557,2015
+81,814.0,Private households,35787.0,994.0833333333334,2015
+TOTAL,nan,TOTAL,76828.0,2134.111111111111,2016
+11,nan,"Agriculture, forestry, fishing and hunting",83467.0,2318.527777777778,2016
+11,111.0,Crop production,32322.0,897.8333333333334,2016
+11,112.0,Animal production,35890.0,996.9444444444445,2016
+11,113.0,Forestry and logging,564832.0,15689.77777777778,2016
+11,114.0,"Fishing, hunting and trapping",104263.0,2896.194444444445,2016
+11,115.0,Agriculture and forestry support activities,31806.0,883.5,2016
+23,nan,Construction,68822.0,1911.7222222222224,2016
+23,236.0,Construction of buildings,73113.0,2030.9166666666667,2016
+23,237.0,Heavy and civil engineering construction,82965.0,2304.5833333333335,2016
+23,238.0,Specialty trade contractors,64964.0,1804.5555555555557,2016
+31-33,nan,Manufacturing,86298.0,2397.1666666666665,2016
+31,311.0,Food manufacturing,54068.0,1501.888888888889,2016
+31,312.0,Beverage and tobacco product manufacturing,49761.0,1382.25,2016
+31,313.0,Textile mills,42311.0,1175.3055555555554,2016
+31,314.0,Textile product mills,67849.0,1884.6944444444443,2016
+31,315.0,Apparel manufacturing,44123.0,1225.638888888889,2016
+31,316.0,Leather and allied product manufacturing,35234.0,978.7222222222222,2016
+32,321.0,Wood product manufacturing,54924.0,1525.6666666666667,2016
+32,322.0,Paper manufacturing,62748.0,1743.0,2016
+32,323.0,Printing and related support activities,54584.0,1516.2222222222224,2016
+32,324.0,Petroleum and coal products manufacturing,84971.0,2360.3055555555557,2016
+32,325.0,Chemical manufacturing,80710.0,2241.9444444444443,2016
+32,326.0,Plastics and rubber products manufacturing,51017.0,1417.138888888889,2016
+32,327.0,Nonmetallic mineral product manufacturing,62213.0,1728.138888888889,2016
+33,331.0,Primary metal manufacturing,70846.0,1967.9444444444443,2016
+33,332.0,Fabricated metal product manufacturing,55892.0,1552.5555555555557,2016
+33,333.0,Machinery manufacturing,71559.0,1987.75,2016
+33,334.0,Computer and electronic product manufacturing,109283.0,3035.6388888888887,2016
+33,335.0,Electrical equipment and appliance mfg.,75498.0,2097.1666666666665,2016
+33,336.0,Transportation equipment manufacturing,111757.0,3104.3611111111113,2016
+33,337.0,Furniture and related product manufacturing,44802.0,1244.5,2016
+33,339.0,Miscellaneous manufacturing,69876.0,1941.0,2016
+42,nan,Wholesale trade,86580.0,2405.0,2016
+42,423.0,"Merchant wholesalers, durable goods",89443.0,2484.527777777778,2016
+42,424.0,"Merchant wholesalers, nondurable goods",68046.0,1890.1666666666667,2016
+42,425.0,Electronic markets and agents and broker,107132.0,2975.8888888888887,2016
+44-45,nan,Retail trade,70808.0,1966.888888888889,2016
+44,441.0,Motor vehicle and parts dealers,55354.0,1537.611111111111,2016
+44,442.0,Furniture and home furnishings stores,43120.0,1197.7777777777778,2016
+44,443.0,Electronics and appliance stores,57849.0,1606.9166666666667,2016
+44,444.0,Building material and garden supply stores,38360.0,1065.5555555555554,2016
+44,445.0,Food and beverage stores,31797.0,883.25,2016
+44,446.0,Health and personal care stores,42459.0,1179.4166666666667,2016
+44,447.0,Gasoline stations,24885.0,691.25,2016
+44,448.0,Clothing and clothing accessories stores,25475.0,707.6388888888888,2016
+45,451.0,"Sporting goods, hobby, book and music stores",27124.0,753.4444444444445,2016
+45,452.0,General merchandise stores,34293.0,952.5833333333334,2016
+45,453.0,Miscellaneous store retailers,30405.0,844.5833333333334,2016
+45,454.0,Nonstore retailers,183637.0,5101.027777777778,2016
+48-49,nan,Transportation and warehousing,64633.0,1795.361111111111,2016
+48,481.0,Air transportation,89819.0,2494.972222222222,2016
+48,483.0,Water transportation,81652.0,2268.111111111111,2016
+48,484.0,Truck transportation,48764.0,1354.5555555555554,2016
+48,485.0,Transit and ground passenger transportation,38094.0,1058.1666666666667,2016
+48,487.0,Scenic and sightseeing transportation,47080.0,1307.7777777777778,2016
+48,488.0,Support activities for transportation,65346.0,1815.1666666666667,2016
+49,491.0,Postal service,28842.0,801.1666666666666,2016
+49,492.0,Couriers and messengers,42104.0,1169.5555555555554,2016
+49,493.0,Warehousing and storage,54235.0,1506.5277777777776,2016
+51,nan,Information,183401.0,5094.472222222222,2016
+51,511.0,"Publishing industries, except Internet",207948.0,5776.333333333333,2016
+51,512.0,Motion picture and sound recording industries,30975.0,860.4166666666666,2016
+51,515.0,"Broadcasting, except Internet",85212.0,2367.0,2016
+51,516.0,Internet publishing and broadcasting,0.0,0.0,2016
+51,517.0,Telecommunications,140211.0,3894.75,2016
+51,518.0,"ISPs, search portals, and data processing",117147.0,3254.0833333333335,2016
+51,519.0,Other information services,191501.0,5319.472222222222,2016
+52,nan,Finance and insurance,110779.0,3077.194444444445,2016
+52,522.0,Credit intermediation and related activities,99331.0,2759.194444444445,2016
+52,524.0,Insurance carriers and related activities,97082.0,2696.722222222222,2016
+53,nan,Real estate and rental and leasing,60482.0,1680.0555555555557,2016
+53,531.0,Real estate,62210.0,1728.0555555555557,2016
+53,532.0,Rental and leasing services,52416.0,1456.0,2016
+53,533.0,Lessors of nonfinancial intangible asset,73093.0,2030.361111111111,2016
+54,nan,Professional and technical services,100020.0,2778.3333333333335,2016
+54,541.0,Professional and technical services,100020.0,2778.3333333333335,2016
+55,nan,Management of companies and enterprises,115440.0,3206.6666666666665,2016
+55,551.0,Management of companies and enterprises,115440.0,3206.6666666666665,2016
+56,nan,Administrative and waste services,55652.0,1545.888888888889,2016
+56,561.0,Administrative and support services,55190.0,1533.0555555555557,2016
+56,562.0,Waste management and remediation service,66632.0,1850.888888888889,2016
+61,nan,Educational services,38695.0,1074.861111111111,2016
+61,611.0,Educational services,38695.0,1074.861111111111,2016
+62,nan,Healthcare and social assistance,54520.0,1514.4444444444443,2016
+62,621.0,Ambulatory healthcare services,66467.0,1846.3055555555557,2016
+62,622.0,Hospitals,82811.0,2300.3055555555557,2016
+62,623.0,Nursing and residential care facilities,35083.0,974.5277777777778,2016
+62,624.0,Social assistance,26760.0,743.3333333333334,2016
+71,nan,"Arts, entertainment, and recreation",41629.0,1156.361111111111,2016
+71,711.0,Performing arts and spectator sports,83112.0,2308.6666666666665,2016
+71,712.0,"Museums, historical sites, zoos, and parks",38136.0,1059.3333333333333,2016
+71,713.0,"Amusements, gambling, and recreation",23176.0,643.7777777777777,2016
+72,nan,Accommodation and food services,25891.0,719.1944444444445,2016
+72,721.0,Accommodation,35732.0,992.5555555555555,2016
+72,722.0,Food services and drinking places,24454.0,679.2777777777777,2016
+81,nan,"Other services, except public administration",44753.0,1243.138888888889,2016
+81,811.0,Repair and maintenance,49554.0,1376.5,2016
+81,812.0,Personal and laundry services,33261.0,923.9166666666666,2016
+81,813.0,Membership associations and organization,56593.0,1572.0277777777776,2016
+81,814.0,Private households,37443.0,1040.0833333333333,2016
+Total,Total,Total,81550.0,2265.277777777778,2017
+11,nan,"Agriculture, forestry, fishing and hunting",65439.0,1817.75,2017
+11,111,Crop production,34048.0,945.7777777777778,2017
+11,112,Animal production,36032.0,1000.8888888888888,2017
+11,113,Forestry and logging,85805.0,2383.472222222222,2017
+11,114,"Fishing, hunting and trapping",129062.0,3585.055555555555,2017
+11,115,Agriculture and forestry support activities,34269.0,951.9166666666666,2017
+23,nan,Construction,71700.0,1991.6666666666667,2017
+23,236,Construction of buildings,76358.0,2121.0555555555557,2017
+23,237,Heavy and civil engineering construction,88165.0,2449.027777777778,2017
+23,238,Specialty trade contractors,67551.0,1876.4166666666667,2017
+31-33,nan,Manufacturing,88173.0,2449.25,2017
+31,311,Food manufacturing,58095.0,1613.75,2017
+31,312,Beverage and tobacco product manufacturing,51739.0,1437.1944444444443,2017
+31,313,Textile mills,44370.0,1232.5,2017
+31,314,Textile product mills,54607.0,1516.861111111111,2017
+31,315,Apparel manufacturing,45521.0,1264.4722222222222,2017
+31,316,Leather and allied product manufacturing,35760.0,993.3333333333334,2017
+32,321,Wood product manufacturing,58770.0,1632.5,2017
+32,322,Paper manufacturing,64758.0,1798.8333333333333,2017
+32,323,Printing and related support activities,52485.0,1457.9166666666667,2017
+32,324,Petroleum and coal products manufacturing,84674.0,2352.0555555555557,2017
+32,325,Chemical manufacturing,84594.0,2349.8333333333335,2017
+32,326,Plastics and rubber products manufacturing,50983.0,1416.1944444444443,2017
+32,327,Nonmetallic mineral product manufacturing,63412.0,1761.4444444444443,2017
+33,331,Primary metal manufacturing,75240.0,2090.0,2017
+33,332,Fabricated metal product manufacturing,57221.0,1589.4722222222224,2017
+33,333,Machinery manufacturing,75821.0,2106.138888888889,2017
+33,334,Computer and electronic product manufacturing,102023.0,2833.972222222222,2017
+33,335,Electrical equipment and appliance manufacturing,80756.0,2243.222222222222,2017
+33,336,Transportation equipment manufacturing,117075.0,3252.0833333333335,2017
+33,337,Furniture and related product manufacturing,46506.0,1291.8333333333333,2017
+33,339,Miscellaneous manufacturing,72491.0,2013.638888888889,2017
+42,nan,Wholesale trade,91019.0,2528.3055555555557,2017
+42,423,"Merchant wholesalers, durable goods",95070.0,2640.8333333333335,2017
+42,424,"Merchant wholesalers, nondurable goods",70332.0,1953.6666666666667,2017
+42,425,Electronic markets and agents and broker,112231.0,3117.527777777778,2017
+44-45,nan,Retail trade,84497.0,2347.138888888889,2017
+44,441,Motor vehicle and parts dealers,57330.0,1592.5,2017
+44,443,Electronics and appliance stores,58945.0,1637.361111111111,2017
+44,444,Building material and garden supply stores,41842.0,1162.2777777777778,2017
+44,445,Food and beverage stores,33135.0,920.4166666666666,2017
+44,446,Health and personal care stores,43862.0,1218.388888888889,2017
+44,448,Clothing and clothing accessories stores,26464.0,735.1111111111112,2017
+45,451,"Sporting goods, hobby, book and music stores",29393.0,816.4722222222222,2017
+45,452,General merchandise stores,37283.0,1035.638888888889,2017
+45,453,Miscellaneous store retailers,32610.0,905.8333333333334,2017
+48-49,nan,Transportation and warehousing,66898.0,1858.2777777777776,2017
+48,481,Air transportation,90480.0,2513.3333333333335,2017
+48,483,Water transportation,88142.0,2448.388888888889,2017
+48,484,Truck transportation,51431.0,1428.638888888889,2017
+48,485,Transit and ground passenger transportation,41216.0,1144.888888888889,2017
+48,487,Scenic and sightseeing transportation,48230.0,1339.7222222222222,2017
+48,488,Support activities for transportation,65814.0,1828.1666666666667,2017
+49,491,Postal service,30690.0,852.5,2017
+49,492,Couriers and messengers,45472.0,1263.111111111111,2017
+49,493,Warehousing and storage,56140.0,1559.4444444444443,2017
+51,nan,Information,197097.0,5474.916666666667,2017
+51,511,"Publishing industries, except Internet",223788.0,6216.333333333333,2017
+51,512,Motion picture and sound recording industries,31589.0,877.4722222222222,2017
+51,515,"Broadcasting, except Internet",86930.0,2414.722222222222,2017
+51,516,Internet publishing and broadcasting,0.0,0.0,2017
+51,517,Telecommunications,144974.0,4027.055555555555,2017
+51,518,"ISPs, search portals, and data processing",122645.0,3406.805555555555,2017
+51,519,Other information services,216137.0,6003.805555555556,2017
+52,nan,Finance and insurance,113754.0,3159.8333333333335,2017
+52,522,Credit intermediation and related activities,102015.0,2833.75,2017
+52,523,"Securities, commodity contracts, investments",172682.0,4796.722222222222,2017
+52,524,Insurance carriers and related activities,96808.0,2689.111111111111,2017
+53,nan,Real estate and rental and leasing,62791.0,1744.1944444444443,2017
+53,531,Real estate,64529.0,1792.4722222222224,2017
+53,532,Rental and leasing services,53520.0,1486.6666666666667,2017
+53,533,Lessors of nonfinancial intangible asset,116898.0,3247.1666666666665,2017
+54,nan,Professional and technical services,104371.0,2899.194444444445,2017
+54,541,Professional and technical services,104371.0,2899.194444444445,2017
+55,nan,Management of companies and enterprises,117189.0,3255.25,2017
+55,551,Management of companies and enterprises,117189.0,3255.25,2017
+56,nan,Administrative and waste services,56770.0,1576.9444444444443,2017
+56,561,Administrative and support services,56433.0,1567.5833333333333,2017
+56,562,Waste management and remediation service,64538.0,1792.7222222222224,2017
+62,nan,Healthcare and social assistance,57114.0,1586.5,2017
+62,621,Ambulatory healthcare services,68324.0,1897.888888888889,2017
+62,622,Hospitals,87202.0,2422.277777777778,2017
+62,623,Nursing and residential care facilities,36921.0,1025.5833333333333,2017
+62,624,Social assistance,28550.0,793.0555555555555,2017
+71,nan,"Arts, entertainment, and recreation",42910.0,1191.9444444444446,2017
+71,711,Performing arts and spectator sports,86992.0,2416.4444444444443,2017
+71,712,"Museums, historical sites, zoos, and parks",39573.0,1099.25,2017
+71,713,"Amusements, gambling, and recreation",23873.0,663.1388888888889,2017
+72,nan,Accommodation and food services,27325.0,759.0277777777778,2017
+72,721,Accommodation,37757.0,1048.8055555555554,2017
+72,722,Food services and drinking places,25798.0,716.6111111111112,2017
+81,nan,"Other services, except public administration",45617.0,1267.138888888889,2017
+81,811,Repair and maintenance,51587.0,1432.9722222222224,2017
+81,812,Personal and laundry services,32253.0,895.9166666666666,2017
+81,813,Membership associations and organization,58609.0,1628.0277777777776,2017
+81,814,Private households,40321.0,1120.0277777777778,2017
+msb,,Min Wage for Small Business w/ Bene or Tips,17520.0,486.6666666666667,2011
+msb,,Min Wage for Small Business w/ Bene or Tips,18080.0,502.22222222222223,2012
+msb,,Min Wage for Small Business w/ Bene or Tips,18380.0,510.5555555555556,2013
+msb,,Min Wage for Small Business w/ Bene or Tips,18640.0,517.7777777777777,2014
+msb,,Min Wage for Small Business w/ Bene or Tips,20000.0,555.5555555555555,2015
+msb,,Min Wage for Small Business w/ Bene or Tips,21000.0,583.3333333333334,2016
+msb,,Min Wage for Small Business w/ Bene or Tips,22000.0,611.1111111111111,2017
+ms,,Min Wage for Small Business,17520.0,486.6666666666667,2011
+ms,,Min Wage for Small Business,18080.0,502.22222222222223,2012
+ms,,Min Wage for Small Business,18380.0,510.5555555555556,2013
+ms,,Min Wage for Small Business,18640.0,517.7777777777777,2014
+ms,,Min Wage for Small Business,22000.0,611.1111111111111,2015
+ms,,Min Wage for Small Business,24000.0,666.6666666666666,2016
+ms,,Min Wage for Small Business,26000.0,722.2222222222222,2017
+mlb,,Min Wage for Lage Business w/ Bene,17520.0,486.6666666666667,2011
+mlb,,Min Wage for Lage Business w/ Bene,18080.0,502.22222222222223,2012
+mlb,,Min Wage for Lage Business w/ Bene,18380.0,510.5555555555556,2013
+mlb,,Min Wage for Lage Business w/ Bene,18640.0,517.7777777777777,2014
+mlb,,Min Wage for Lage Business w/ Bene,22000.0,611.1111111111111,2015
+mlb,,Min Wage for Lage Business w/ Bene,25000.0,694.4444444444445,2016
+mlb,,Min Wage for Lage Business w/ Bene,27000.0,750.0,2017
+ml,,Min Wage for Large Business,17520.0,486.6666666666667,2011
+ml,,Min Wage for Large Business,18080.0,502.22222222222223,2012
+ml,,Min Wage for Large Business,18380.0,510.5555555555556,2013
+ml,,Min Wage for Large Business,18640.0,517.7777777777777,2014
+ml,,Min Wage for Large Business,22000.0,611.1111111111111,2015
+ml,,Min Wage for Large Business,26000.0,722.2222222222222,2016
+ml,,Min Wage for Large Business,30000.0,833.3333333333334,2017

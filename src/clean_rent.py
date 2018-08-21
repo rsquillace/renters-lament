@@ -14,12 +14,12 @@ neigborhoods = {98103: 'Wallingford', 98115 : 'Wedgewood',
 def clean_rental_data(rent_filepath):
     rent_data = pd.read_csv(rent_filepath)
     reduced_rent = rent_data[rent_data['RegionName'].isin(seattle_zipcodes)].copy()
-    pruned_rent = reduced_rent.dropna(axis=1, how='all').reset_index(drop=True).copy()
+    pruned_rent = reduced_rent.dropna(axis=1, how='all').copy()
     years=[]
     for num in range(2011,2018):
         years.append(str(num))
     for year in years:
         pruned_rent[year] = pruned_rent.loc[:, pruned_rent.columns.str.startswith(year)].median(axis=1)
     pruned_rent['neighborhood']= pruned_rent['RegionName'].map(neigborhoods)
-    clean_rent = pruned_rent.filter(items=['RegionName', 'neighborhood', *years])
+    clean_rent = pruned_rent.filter(items=['RegionName', 'neighborhood', *years]).reset_index(drop=True).copy()
     return clean_rent

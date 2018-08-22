@@ -38,5 +38,6 @@ def aggregate_dataframes(sale_filepath,res_filepath,condo_filepath):
     cond_sale = pd.merge(cond_df,sale_df, on=['Major','Minor'], how='inner')
     all_sales = pd.concat([res_sale, cond_sale], sort=False).reset_index(drop=True)
     clean_sales = all_sales.filter(items=['year','SalePrice','ZipCode']).copy()
-    grouped_clean_sales = clean_sales.groupby(['year', 'ZipCode']).median().copy()
+    clean_sales = clean_sales.rename(columns={'ZipCode':'zipcode','SalePrice':'med_sale_price'})
+    grouped_clean_sales = clean_sales.groupby(['year', 'zipcode']).median().reset_index()
     return grouped_clean_sales

@@ -1,18 +1,120 @@
-RegionName,neighborhood,2011,2012,2013,2014,2015,2016,2017
-98103,Wallingford,,,,,,1740.0,1795.0
-98115,Wedgewood,,,,,1474.75,1700.0,1725.5
-98133,North Park,,,,,,,1379.5
-98122,Capitol Hill/Madrona,1192.5,1405.0,1450.0,1729.25,1800.0,1826.0,1937.5
-98125,Lake City,,,,,,,1374.75
-98109,Westlake,1337.0,1450.0,1641.0,1715.5,1834.75,1950.25,2100.0
-98105,University District,,,,,1508.25,1500.0,1589.5
-98118,Rainier Valley,,,,,,,1762.5
-98102,Captiol Hill,,1495.0,1462.5,1506.25,1740.0,1718.5,1783.75
-98107,Ballard,,,1785.0,1780.0,1731.25,1728.75,1871.5
-98117,Ballard,,,,,,,1662.5
-98121,BellTown,1515.0,1528.75,1688.75,1749.25,1927.5,2036.5,2583.25
-98116,West Seattle/Alki,,,,,,1601.0,1835.25
-98112,Montlake,,,,,,,1645.0
-98101,Downtown,,,,,,2241.0,2542.5
-98126,West Seattle,,,,,,,1601.0
-98104,Pioneer Square,,,,,,1840.0,1977.0
+,zipcode,neighborhood,med_rent,year
+0,98103,Wallingford,,2011
+1,98115,Wedgewood,,2011
+2,98133,North Park,,2011
+3,98122,Capitol Hill/Madrona,1192.5,2011
+4,98125,Lake City,,2011
+5,98109,Westlake,1337.0,2011
+6,98105,University District,,2011
+7,98118,Rainier Valley,,2011
+8,98102,Captiol Hill,,2011
+9,98107,Ballard,,2011
+10,98117,Ballard,,2011
+11,98121,BellTown,1515.0,2011
+12,98116,West Seattle/Alki,,2011
+13,98112,Montlake,,2011
+14,98101,Downtown,,2011
+15,98126,West Seattle,,2011
+16,98104,Pioneer Square,,2011
+17,98103,Wallingford,,2012
+18,98115,Wedgewood,,2012
+19,98133,North Park,,2012
+20,98122,Capitol Hill/Madrona,1405.0,2012
+21,98125,Lake City,,2012
+22,98109,Westlake,1450.0,2012
+23,98105,University District,,2012
+24,98118,Rainier Valley,,2012
+25,98102,Captiol Hill,1495.0,2012
+26,98107,Ballard,,2012
+27,98117,Ballard,,2012
+28,98121,BellTown,1528.75,2012
+29,98116,West Seattle/Alki,,2012
+30,98112,Montlake,,2012
+31,98101,Downtown,,2012
+32,98126,West Seattle,,2012
+33,98104,Pioneer Square,,2012
+34,98103,Wallingford,,2013
+35,98115,Wedgewood,,2013
+36,98133,North Park,,2013
+37,98122,Capitol Hill/Madrona,1450.0,2013
+38,98125,Lake City,,2013
+39,98109,Westlake,1641.0,2013
+40,98105,University District,,2013
+41,98118,Rainier Valley,,2013
+42,98102,Captiol Hill,1462.5,2013
+43,98107,Ballard,1785.0,2013
+44,98117,Ballard,,2013
+45,98121,BellTown,1688.75,2013
+46,98116,West Seattle/Alki,,2013
+47,98112,Montlake,,2013
+48,98101,Downtown,,2013
+49,98126,West Seattle,,2013
+50,98104,Pioneer Square,,2013
+51,98103,Wallingford,,2014
+52,98115,Wedgewood,,2014
+53,98133,North Park,,2014
+54,98122,Capitol Hill/Madrona,1729.25,2014
+55,98125,Lake City,,2014
+56,98109,Westlake,1715.5,2014
+57,98105,University District,,2014
+58,98118,Rainier Valley,,2014
+59,98102,Captiol Hill,1506.25,2014
+60,98107,Ballard,1780.0,2014
+61,98117,Ballard,,2014
+62,98121,BellTown,1749.25,2014
+63,98116,West Seattle/Alki,,2014
+64,98112,Montlake,,2014
+65,98101,Downtown,,2014
+66,98126,West Seattle,,2014
+67,98104,Pioneer Square,,2014
+68,98103,Wallingford,,2015
+69,98115,Wedgewood,1474.75,2015
+70,98133,North Park,,2015
+71,98122,Capitol Hill/Madrona,1800.0,2015
+72,98125,Lake City,,2015
+73,98109,Westlake,1834.75,2015
+74,98105,University District,1508.25,2015
+75,98118,Rainier Valley,,2015
+76,98102,Captiol Hill,1740.0,2015
+77,98107,Ballard,1731.25,2015
+78,98117,Ballard,,2015
+79,98121,BellTown,1927.5,2015
+80,98116,West Seattle/Alki,,2015
+81,98112,Montlake,,2015
+82,98101,Downtown,,2015
+83,98126,West Seattle,,2015
+84,98104,Pioneer Square,,2015
+85,98103,Wallingford,1740.0,2016
+86,98115,Wedgewood,1700.0,2016
+87,98133,North Park,,2016
+88,98122,Capitol Hill/Madrona,1826.0,2016
+89,98125,Lake City,,2016
+90,98109,Westlake,1950.25,2016
+91,98105,University District,1500.0,2016
+92,98118,Rainier Valley,,2016
+93,98102,Captiol Hill,1718.5,2016
+94,98107,Ballard,1728.75,2016
+95,98117,Ballard,,2016
+96,98121,BellTown,2036.5,2016
+97,98116,West Seattle/Alki,1601.0,2016
+98,98112,Montlake,,2016
+99,98101,Downtown,2241.0,2016
+100,98126,West Seattle,,2016
+101,98104,Pioneer Square,1840.0,2016
+102,98103,Wallingford,1795.0,2017
+103,98115,Wedgewood,1725.5,2017
+104,98133,North Park,1379.5,2017
+105,98122,Capitol Hill/Madrona,1937.5,2017
+106,98125,Lake City,1374.75,2017
+107,98109,Westlake,2100.0,2017
+108,98105,University District,1589.5,2017
+109,98118,Rainier Valley,1762.5,2017
+110,98102,Captiol Hill,1783.75,2017
+111,98107,Ballard,1871.5,2017
+112,98117,Ballard,1662.5,2017
+113,98121,BellTown,2583.25,2017
+114,98116,West Seattle/Alki,1835.25,2017
+115,98112,Montlake,1645.0,2017
+116,98101,Downtown,2542.5,2017
+117,98126,West Seattle,1601.0,2017
+118,98104,Pioneer Square,1977.0,2017

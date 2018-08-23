@@ -104,3 +104,9 @@ venv.bak/
 .mypy_cache/
 
 .~lock*
+
+*.ipynb
+
+EXTR_ResBldg.csv
+EXTR_RPSale.csv
+Real Property Sales.zip

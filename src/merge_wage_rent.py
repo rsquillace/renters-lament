@@ -18,3 +18,9 @@ def merge_rent_wage(rent_df, wage_df):
     for col in merged.loc[:, merged.columns.str.startswith('98')].columns:
         merged[col] = merged[col] <= merged['monthly_rent_allowance']
     return merged
+
+def retrieve_affordable_zips(rent_df, wage_df, industry_name, year):
+    merged = merge_rent_wage(rent_df, wage_df)
+    aff = merged.loc[:, merged.columns.str.startswith('98')].loc[(merged['industry'] == industry_name)&(merged['year'] == year)].values[0]
+    zips = merged.loc[:, merged.columns.str.startswith('98')].columns
+    return zips[aff]

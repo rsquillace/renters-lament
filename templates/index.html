@@ -10,7 +10,33 @@ import index
 </script>
 </head>
 
+<style>
+body {
+    background-color: #33ccff;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
+
 <body onload="brython({debug:1, pythonpath:['static/brython']})">
+  <center>
+
+    <p>
+  <h1>Seattle Rent Affordability Based on Various Industry Wages</h1>
+</p>
+
+<p>
+  Select a year and industry below
+</p>
+<p>
 <select id="industry_name">
 
   {% for industry_name in industry_names %}  <!--start for loop over variable data-->
@@ -30,8 +56,11 @@ import index
   {% endfor %}            <!-- end for loop -->
 
 </select>
-
-<div id="table"></div>
-
+</p>
+<div>
+<div style="float: left"> <img src="/static/zip-code-map-seattle.jpg"></div>
+<div id="table" style="float: left; padding: 5rem"></div>
+</div>
+</center>
 </body>
 </html>

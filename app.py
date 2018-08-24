@@ -6,13 +6,11 @@ import numpy as np
 merged = pd.read_csv('data/affordability_data.csv')
 app = Flask(__name__)
 
-
 @app.route('/')
 def index():
-    n = 100
-    x = range(n)
-    y = [random() for i in x]
-    return render_template('table.html', data=zip(x, y))
+    industry_names = merged['industry'].unique()
+    years = merged['year'].unique()
+    return render_template('index.html', years=years, industry_names=industry_names)
 
 @app.route('/table/<industry_name>/<year>')
 def table(industry_name, year):

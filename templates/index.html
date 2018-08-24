@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Seattle Rental Affordability</title>
+<script type="text/javascript" src="static/brython/brython.js"></script>
+<script type="text/javascript" src="static/brython/brython_modules.js"></script>
+<script type="text/python3">
+import index
+</script>
+</head>
+
+<body onload="brython({debug:1, pythonpath:['static/brython']})">
+<select id="industry_name">
+
+  {% for industry_name in industry_names %}  <!--start for loop over variable data-->
+                     <!-- on each row -->
+    <option value="{{industry_name}}">{{industry_name}}</option>
+
+  {% endfor %}            <!-- end for loop -->
+
+</select>
+
+<select id="year">
+
+  {% for year in years %}  <!--start for loop over variable data-->
+                     <!-- on each row -->
+    <option value="{{year}}">{{year}}</option>
+
+  {% endfor %}            <!-- end for loop -->
+
+</select>
+
+<div id="table"></div>
+
+</body>
+</html>

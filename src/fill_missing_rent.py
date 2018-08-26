@@ -25,7 +25,7 @@ def make_normalized_dic(sale_df, rent_df, zipcode):
 def fill_rent(sale_df, rent_df):
     for zc in rent_df['zipcode'].unique():
         norm_dic = make_normalized_dic(sale_df, rent_df, zc)
-        null = rent_df.columns[rent_df.isnull().any()].tolist()
+        null = rent_df.columns[rent_df[rent_df['zipcode'] == zc].isnull().any()].tolist()
         for year in null:
             rent_df.at[rent_df['zipcode'] == zc, year] = norm_dic[year]
     return rent_df

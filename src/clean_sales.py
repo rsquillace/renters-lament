@@ -30,7 +30,7 @@ def clean_condo_data(condo_filepath):
     clean_condo = pruned_condo[pruned_condo['ZipCode'].isin(seattle_zips)].copy()
     return clean_condo
 
-def aggregate_dataframes(sale_filepath,res_filepath,condo_filepath):
+def aggregate_dataframes(sale_filepath, res_filepath, condo_filepath):
     sale_df = clean_sale_data(sale_filepath)
     res_df = clean_residential_data(res_filepath)
     cond_df = clean_condo_data(condo_filepath)

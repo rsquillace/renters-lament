@@ -24,18 +24,6 @@ def clean_rental_data(rent_filepath):
     for year in years:
         pruned_rent[year] = pruned_rent.loc[:, pruned_rent.columns.str.startswith(year)].median(axis=1)
     pruned_rent['neighborhood']= pruned_rent['RegionName'].map(neigborhoods)
-    clean_rent = pruned_rent.filter(items=['RegionName', 'neighborhood', *years]).reset_index(drop=True).copy()
+    pruned_rent = pruned_rent.rename(columns={'RegionName':'zipcode'})
+    clean_rent = pruned_rent.filter(items=['zipcode', 'neighborhood', *years]).reset_index(drop=True).copy()
     return clean_rent
-
-def reformat_rent(rent_filepath, year):
-    rent_df = clean_rental_data(rent_filepath)
-    year_df = rent_df.filter(items=['RegionName','neighborhood', str(year)]).copy()
-    year_df['year'] = int(year)
-    year_df = year_df.rename(columns={'RegionName':'zipcode',str(year):'med_rent'})
-    return year_df
-
-def aggregate_reformatted_rent(rent_filepath):
-    reformatted_dfs = []
-    for year in range(2011,2018):
-        reformatted_dfs.append(reformat_rent(rent_filepath, year))
-    return pd.concat(reformatted_dfs).reset_index(drop=True)

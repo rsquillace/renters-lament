@@ -13,6 +13,7 @@ def clean_year_df(occupation_year_filepath, year):
         clean_occ['est_emp'] = clean_occ['est_emp'].str.replace(char, '')
     clean_occ[['ann_wage', 'est_emp']] = clean_occ[['ann_wage', 'est_emp']].astype(int)
     final_occ = clean_occ.nlargest(300, 'est_emp').copy().reset_index(drop=True)
+    final_occ['monthly_rent_allowance'] = (final_occ['ann_wage'] / 12) / 3
     final_occ['year'] = year
     return final_occ
 

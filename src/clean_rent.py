@@ -26,6 +26,4 @@ def clean_rental_data(rent_filepath):
     pruned_rent['neighborhood']= pruned_rent['RegionName'].map(neigborhoods)
     pruned_rent = pruned_rent.rename(columns={'RegionName':'zipcode'})
     clean_rent = pruned_rent.filter(items=['zipcode', 'neighborhood', *years]).reset_index(drop=True).copy()
-    clean_rent = pd.melt(rent, id_vars=["zipcode", "neighborhood"], var_name="year", value_name="med_rent")
-    clean_rent['year'] = rent['year'].astype(int)
     return clean_rent

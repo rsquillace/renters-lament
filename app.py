@@ -11,19 +11,20 @@ app = Flask(__name__)
 def index():
     industry_names = merged['industry'].unique()
     years = merged['year'].unique()
-    return render_template('index.html', years=years, industry_names=industry_names)
+    bedrooms = merged['bedrooms'].unique()
+    return render_template('index.html', years=years, industry_names=industry_names, bedrooms=bedrooms)
 
-@app.route('/table/<industry_name>/<year>')
-def table(industry_name, year):
-    zips = retrieve_affordable_zips(industry_name, int(year))
+@app.route('/table/<industry_name>/<year>/<bedroom>')
+def table(industry_name, year, bedroom):
+    zips = retrieve_affordable_zips(industry_name, int(year), int(bedroom))
     #n = len(zips)
     x = zips
     #y = zips
     return render_template('table.html', data=x)
 
-@app.route('/map_data/<industry_name>/<year>')
-def aff_map(industry_name, year):
-    df = merged[(merged['industry'] == industry_name)&(merged['year'] == year)].copy()
+@app.route('/map_data/<industry_name>/<year>/<bedroom>')
+def aff_map(industry_name, year, bedroom):
+    df = merged[(merged['industry'] == industry_name)&(merged['year'] == year)&(merged['bedrooms'] == bedroom)].copy()
     zip_info = []
     for zip in df['zipcode'].values:
         zip_dic = {}
@@ -38,8 +39,8 @@ def aff_map(industry_name, year):
     return render_template('map.html', jsonify(zip_info))
 
 
-def retrieve_affordable_zips(industry_name, year):
-    df = merged[(merged['industry'] == industry_name)&(merged['year'] == year)].copy()
+def retrieve_affordable_zips(industry_name, year, bedroom):
+    df = merged[(merged['industry'] == industry_name)&(merged['year'] == year)&(merged['bedrooms'] == bedroom)].copy()
     affordable_zips = []
     for zip in df['zipcode'].values:
         if df[df['zipcode'] == zip]['affordable'].item() == True:

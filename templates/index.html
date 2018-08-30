@@ -23,7 +23,7 @@
   <script>
     $(document).ready(function() {
 
-      var map = L.map("map").setView([47.608013, -122.335167], 10);
+      var map = L.map("map").setView([47.608013, -122.335167], 10.5);
 
 
       L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicnNxdWlsbGFjZSIsImEiOiJjamxmY3k0aHQwdm03M3ZwYWVld2NiazV1In0.piiOcAZTGFOWS5E-Ny-oYw', {
@@ -72,6 +72,8 @@
   <header class="main-header" role="banner">
     <img src="/static/Seattle_3_banner.jpg" alt="Banner Image"/>
 
+
+
   </header>
 
   <div id="map" style="width:1000px;height:500px"></div>
@@ -102,6 +104,16 @@
     <option value="{{year}}">{{year}}</option>
 
   {% endfor %}            <!-- end for loop -->
+
+</select>
+
+<select id="bedroom">
+
+{% for bedroom in bedrooms %}  <!--start for loop over variable data-->
+               <!-- on each row -->
+<option value="{{bedroom}}">{{bedroom}}</option>
+
+{% endfor %}            <!-- end for loop -->
 
 </select>
     </p>

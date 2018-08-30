@@ -1,6 +1,7 @@
 from browser import document, html, ajax
 industry_name = document['industry_name']
 year = document['year']
+bedroom = document['bedroom']
 table = document['table']
 
 from urllib.parse import quote
@@ -15,7 +16,7 @@ def get_table(ev):
     req = ajax.ajax()
     req.bind('complete', update_table)
     # send a POST request to the url
-    url = f'/table/{get_selected(industry_name)}/{get_selected(year)}'
+    url = f'/table/{get_selected(industry_name)}/{get_selected(year)}/{get_selected(bedroom)}'
     url = quote(url)
     req.open('GET', url, True)
     #req.set_header('content-type','application/x-www-form-urlencoded')

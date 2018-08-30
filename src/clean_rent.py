@@ -1,15 +1,9 @@
 import pandas as pd
 import numpy as np
 
-seattle_zipcodes = [98103, 98115, 98133, 98122, 98125, 98109, 98105, 98118, 98102, 98107, 98117, 98121, 98116, 98112, 98101, 98126, 98104]
+seattle_zipcodes =  [98101, 98102, 98103, 98104, 98105, 98106, 98107, 98108, 98109, 98112, 98115, 98116, 98117, 98118, 98119, 98121, 98122, 98125, 98126, 98133, 98136, 98144, 98177, 98199]
 
-neigborhoods = {98103: 'Wallingford', 98115 : 'Wedgewood',
-                98133: 'North Park', 98122: 'Capitol Hill/Madrona',
-                98125: 'Lake City', 98109: 'Westlake', 98105: 'University District',
-                98118: 'Rainier Valley', 98102: 'Captiol Hill',
-       98107: 'Ballard', 98117: 'Ballard', 98121: 'BellTown',
-                98116: 'West Seattle/Alki', 98112: 'Montlake', 98101: 'Downtown',
-                98126: 'West Seattle', 98104: 'Pioneer Square'}
+neighborhoods = {98101: 'Downtown', 98102: 'Captiol Hill', 98103: 'Wallingford', 98104: 'Pioneer Square', 98105: 'University District', 98106: 'Highland Park', 98107: 'Ballard', 98108: 'Georgetown/Beacon Hill', 98109: 'Westlake', 98112: 'Montlake', 98115 : 'Wedgewood', 98116: 'West Seattle/Alki', 98117: 'Crown Hill', 98118: 'Rainier Valley', 98119: 'Queen Anne', 98121: 'BellTown', 98122: 'Capitol Hill/Madrona', 98125: 'Lake City', 98126: 'West Seattle', 98133: 'North Park', 98136: 'Fauntleroy', 98144: 'Mt. Baker', 98177: 'Richmond Beach', 98199: 'Magnolia'}
 
 def create_rent_df(rent_filepath):
     return pd.read_csv(rent_filepath)
@@ -23,7 +17,7 @@ def clean_rental_data(rent_filepath):
         years.append(str(num))
     for year in years:
         pruned_rent[year] = pruned_rent.loc[:, pruned_rent.columns.str.startswith(year)].median(axis=1)
-    pruned_rent['neighborhood']= pruned_rent['RegionName'].map(neigborhoods)
+    pruned_rent['neighborhood']= pruned_rent['RegionName'].map(neighborhoods)
     pruned_rent = pruned_rent.rename(columns={'RegionName':'zipcode'})
     clean_rent = pruned_rent.filter(items=['zipcode', 'neighborhood', *years]).reset_index(drop=True).copy()
     return clean_rent

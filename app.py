@@ -24,19 +24,16 @@ def table(industry_name, year, bedroom):
 
 @app.route('/map_data/<industry_name>/<year>/<bedroom>')
 def aff_map(industry_name, year, bedroom):
-    df = merged[(merged['industry'] == industry_name)&(merged['year'] == year)&(merged['bedrooms'] == bedroom)].copy()
-    zip_info = []
+    df = merged[merged['industry'] == industry_name]
+    df = df[df['year'] == int(year)]
+    df = df[df['bedrooms'] == int(bedroom)]
+    zip_info = {}
     for zip in df['zipcode'].values:
-        zip_dic = {}
-        zip_dic['zipcode'] = zip
         if df[df['zipcode'] == zip]['affordable'].item() == True:
-            zip_dic['color'] = '#58D68D'
-            zip_dic['label'] = 'affordable'
+            zip_info[zip] = '#58D68D'
         else:
-            zip_dic['color'] = '#D5D8DC'
-            zip_dic['label'] = 'not affordable'
-        zip_info.append(zip_dic)
-    return render_template('map.html', jsonify(zip_info))
+            zip_info[zip] = '#FF5858'
+    return jsonify(zip_info)
 
 
 def retrieve_affordable_zips(industry_name, year, bedroom):

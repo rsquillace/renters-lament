@@ -1,7 +1,7 @@
 from browser import document, html, ajax, window
 import json
 industry_name = document['industry_name']
-year = document['year']
+year = document['year-slider']
 bedroom = document['bedroom']
 table = document['table']
 
@@ -17,7 +17,7 @@ def get_table(ev):
     req = ajax.ajax()
     req.bind('complete', update_table)
     # send a POST request to the url
-    url = f'/table/{get_selected(industry_name)}/{get_selected(year)}/{get_selected(bedroom)}'
+    url = f'/table/{get_selected(industry_name)}/{get_value(year)}/{get_selected(bedroom)}'
     url = quote(url)
     req.open('GET', url, True)
     #req.set_header('content-type','application/x-www-form-urlencoded')
@@ -41,7 +41,8 @@ def update_map(req):
 def get_map_data(ev):
     req = ajax.ajax()
     req.bind("complete", update_map)
-    url = f'map_data/{get_selected(industry_name)}/{get_selected(year)}/{get_selected(bedroom)}'
+    print(req)
+    url = f'map_data/{get_selected(industry_name)}/{get_value(year)}/{get_selected(bedroom)}'
     url = quote(url)
     req.open('GET', url, True)
     req.send()
@@ -49,9 +50,12 @@ def get_map_data(ev):
 def get_selected(sel):
     return next(option.value for option in sel if option.selected)
 
+def get_value(input):
+    return input.value
+
 industry_name.bind("change", get_table)
-year.bind("change", get_table)
+year.bind("input", get_table)
 bedroom.bind("change", get_table)
 industry_name.bind("change", get_map_data)
-year.bind("change", get_map_data)
+year.bind("input", get_map_data)
 bedroom.bind("change", get_map_data)

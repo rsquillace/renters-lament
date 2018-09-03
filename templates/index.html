@@ -20,14 +20,17 @@
     import index
   </script>
 
+
+
   <script>
     var zipcodeMap;
     var zipcodeLayer;
     var zipcode_shapes;
-    
+
     function get_zipcode(zipcode_shape) {
       return zipcode_shape["feature"]["properties"]["ZIPCODE"]
-      }
+    }
+
     function get_zipcode_shapes() {
       zipcode_shape_ids = Object.keys(zipcodeLayer._layers)
       return zipcode_shape_ids.map(
@@ -39,7 +42,7 @@
 
     $(document).ready(function() {
 
-      zipcodeMap = L.map("zipcodeMap").setView([47.608013, -122.335167], 10.5);
+      zipcodeMap = L.map("zipcodeMap").setView([47.628013, -122.335167], 10.5);
 
       L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicnNxdWlsbGFjZSIsImEiOiJjamxmY3k0aHQwdm03M3ZwYWVld2NiazV1In0.piiOcAZTGFOWS5E-Ny-oYw', {
         maxZoom: 18,
@@ -48,6 +51,7 @@
           'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         id: 'mapbox.light'
       }).addTo(zipcodeMap);
+
       add_zipcodeLayer_to_map = (function(zipData) {
         zipcodeLayer = L.geoJson(zipData)
         zipcodeLayer.addTo(zipcodeMap);
@@ -86,21 +90,32 @@
 <body onload="brython({debug:1, pythonpath:['static/brython']})">
 
   <header class="main-header" role="banner">
-    <img src="/static/Seattle_3_banner.jpg" alt="Banner Image"/>
+    <img src="/static/Seattle_3_banner.jpg" alt="Banner Image" style="overflow-x:hidden;max-width:100%"/>
   </header>
+  <div style="text-align: center;">
 
-  <div id="zipcodeMap" style="width:1000px;height:500px"></div>
-  <center>
+  <h1>Renters' Lament</h1>
+  <p>
+    A comprehensive display of the changing affordability of rent in Seattle
+  </p>
+
+  <div id="zipcodeMap" style="width:500px;height:550px;margin:auto;"></div>
+
+  <p>
+    <input type="range" id="year-slider" min="2011" max="2017" value="2011"  oninput="outputUpdate(value)" />
+    <output for="year-slider" id="year">2011</output>
+    <script>
+      function outputUpdate(vol) {
+    	  document.querySelector('#year').value = vol;
+      }
+    </script>
+
+  </p>
 
     <p>
-      <h1>Seattle Rent Affordability Based on Various Industry Wages</h1>
-    </p>
 
-    <p>
-      Select a year and industry below
-    </p>
-    <p>
-      <select id="industry_name">
+<select id="industry_name">
+  <option value="" disabled selected>Industry</option>
 
   {% for industry_name in industry_names %}  <!--start for loop over variable data-->
                      <!-- on each row -->
@@ -110,31 +125,25 @@
 
 </select>
 
-      <select id="year">
-
-  {% for year in years %}  <!--start for loop over variable data-->
-                     <!-- on each row -->
-    <option value="{{year}}">{{year}}</option>
-
-  {% endfor %}            <!-- end for loop -->
-
-</select>
-
 <select id="bedroom">
+  <option value="" disabled selected>Number of Bedrooms</option>
 
-{% for bedroom in bedrooms %}  <!--start for loop over variable data-->
+    {% for bedroom in bedrooms %}  <!--start for loop over variable data-->
                <!-- on each row -->
-<option value="{{bedroom}}">{{bedroom}}</option>
+        <option value="{{bedroom}}">{{bedroom}}</option>
 
-{% endfor %}            <!-- end for loop -->
+    {% endfor %}            <!-- end for loop -->
 
 </select>
+
     </p>
+
     <div "wrapper" style="text-align: center;">
       <!--<div style="display: inline-block; vertical-align: top;"> <img src="/static/zip-code-map-seattle.jpg"></div>-->
       <div style="display: inline-block; vertical-align: top; padding: 3rem" id="table"></div>
     </div>
-  </center>
+
+  </div>
 
 
 

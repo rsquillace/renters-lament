@@ -54,7 +54,6 @@ Warehousing and storage,52235.0,1450.9722222222224,2011
 "Publishing industries, except Internet",164300.0,4563.888888888889,2011
 Motion picture and sound recording industries,33919.0,942.1944444444445,2011
 "Broadcasting, except Internet",76322.0,2120.0555555555557,2011
-Internet publishing and broadcasting,0.0,0.0,2011
 Telecommunications,97607.0,2711.3055555555557,2011
 "ISPs, search portals, and data processing",76173.0,2115.9166666666665,2011
 Other information services,111431.0,3095.305555555555,2011
@@ -135,7 +134,6 @@ Warehousing and storage,56400.0,1566.6666666666667,2012
 "Publishing industries, except Internet",180193.0,5005.361111111111,2012
 Motion picture and sound recording industries,32679.0,907.75,2012
 "Broadcasting, except Internet",79578.0,2210.5,2012
-Internet publishing and broadcasting,0.0,0.0,2012
 Telecommunications,111885.0,3107.9166666666665,2012
 "ISPs, search portals, and data processing",76858.0,2134.9444444444443,2012
 Other information services,126960.0,3526.6666666666665,2012
@@ -216,7 +214,6 @@ Warehousing and storage,60405.0,1677.9166666666667,2013
 "Publishing industries, except Internet",185398.0,5149.944444444444,2013
 Motion picture and sound recording industries,31933.0,887.0277777777778,2013
 "Broadcasting, except Internet",80934.0,2248.1666666666665,2013
-Internet publishing and broadcasting,0.0,0.0,2013
 Telecommunications,108525.0,3014.5833333333335,2013
 "ISPs, search portals, and data processing",81586.0,2266.277777777778,2013
 Other information services,124411.0,3455.8611111111113,2013
@@ -297,7 +294,6 @@ Warehousing and storage,56272.0,1563.111111111111,2014
 "Publishing industries, except Internet",206152.0,5726.444444444444,2014
 Motion picture and sound recording industries,29407.0,816.8611111111112,2014
 "Broadcasting, except Internet",80759.0,2243.3055555555557,2014
-Internet publishing and broadcasting,0.0,0.0,2014
 Telecommunications,119664.0,3324.0,2014
 "ISPs, search portals, and data processing",103135.0,2864.8611111111113,2014
 Other information services,132417.0,3678.25,2014
@@ -378,7 +374,6 @@ Warehousing and storage,56554.0,1570.9444444444443,2015
 "Publishing industries, except Internet",202617.0,5628.25,2015
 Motion picture and sound recording industries,32151.0,893.0833333333334,2015
 "Broadcasting, except Internet",83021.0,2306.138888888889,2015
-Internet publishing and broadcasting,0.0,0.0,2015
 Telecommunications,136903.0,3802.8611111111113,2015
 "ISPs, search portals, and data processing",97822.0,2717.277777777778,2015
 Other information services,159830.0,4439.722222222222,2015
@@ -456,7 +451,6 @@ Warehousing and storage,54235.0,1506.5277777777776,2016
 "Publishing industries, except Internet",207948.0,5776.333333333333,2016
 Motion picture and sound recording industries,30975.0,860.4166666666666,2016
 "Broadcasting, except Internet",85212.0,2367.0,2016
-Internet publishing and broadcasting,0.0,0.0,2016
 Telecommunications,140211.0,3894.75,2016
 "ISPs, search portals, and data processing",117147.0,3254.0833333333335,2016
 Other information services,191501.0,5319.472222222222,2016
@@ -533,7 +527,6 @@ Warehousing and storage,56140.0,1559.4444444444443,2017
 "Publishing industries, except Internet",223788.0,6216.333333333333,2017
 Motion picture and sound recording industries,31589.0,877.4722222222222,2017
 "Broadcasting, except Internet",86930.0,2414.722222222222,2017
-Internet publishing and broadcasting,0.0,0.0,2017
 Telecommunications,144974.0,4027.055555555555,2017
 "ISPs, search portals, and data processing",122645.0,3406.805555555555,2017
 Other information services,216137.0,6003.805555555556,2017
@@ -572,13 +565,13 @@ Min Wage for Small Business,18640.0,517.7777777777777,2014
 Min Wage for Small Business,22000.0,611.1111111111111,2015
 Min Wage for Small Business,24000.0,666.6666666666666,2016
 Min Wage for Small Business,26000.0,722.2222222222222,2017
-Min Wage for Lage Business w/ Bene,17520.0,486.6666666666667,2011
-Min Wage for Lage Business w/ Bene,18080.0,502.22222222222223,2012
-Min Wage for Lage Business w/ Bene,18380.0,510.5555555555556,2013
-Min Wage for Lage Business w/ Bene,18640.0,517.7777777777777,2014
-Min Wage for Lage Business w/ Bene,22000.0,611.1111111111111,2015
-Min Wage for Lage Business w/ Bene,25000.0,694.4444444444445,2016
-Min Wage for Lage Business w/ Bene,27000.0,750.0,2017
+Min Wage for Large Business w/ Bene,17520.0,486.6666666666667,2011
+Min Wage for Large Business w/ Bene,18080.0,502.22222222222223,2012
+Min Wage for Large Business w/ Bene,18380.0,510.5555555555556,2013
+Min Wage for Large Business w/ Bene,18640.0,517.7777777777777,2014
+Min Wage for Large Business w/ Bene,22000.0,611.1111111111111,2015
+Min Wage for Large Business w/ Bene,25000.0,694.4444444444445,2016
+Min Wage for Large Business w/ Bene,27000.0,750.0,2017
 Min Wage for Large Business,17520.0,486.6666666666667,2011
 Min Wage for Large Business,18080.0,502.22222222222223,2012
 Min Wage for Large Business,18380.0,510.5555555555556,2013

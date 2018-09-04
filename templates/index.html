@@ -42,7 +42,7 @@
 
     $(document).ready(function() {
 
-      zipcodeMap = L.map("zipcodeMap").setView([47.628013, -122.335167], 10.5);
+      zipcodeMap = L.map("zipcodeMap").setView([47.628013, -122.312167], 10.5);
 
       L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicnNxdWlsbGFjZSIsImEiOiJjamxmY3k0aHQwdm03M3ZwYWVld2NiazV1In0.piiOcAZTGFOWS5E-Ny-oYw', {
         maxZoom: 18,
@@ -51,6 +51,22 @@
           'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         id: 'mapbox.light'
       }).addTo(zipcodeMap);
+
+
+    	var Legend = L.control({position: 'bottomright'});
+
+    	Legend.onAdd = function (map) {
+    		var legdiv = L.DomUtil.create('div', 'info legend'),
+    			status = [1, 2, 3],
+    			labels = ['Affordable', 'Not Affordable', 'Rent Unknown'];
+
+    		for (var i = 0; i < status.length; i++) {
+    			legdiv.innerHTML +=
+    				'<i style="background:' + getColor(status[i]) + '"></i> ' +	(status[i] ? labels[i] + '<br>' : '+');
+    		}
+    		return legdiv;
+    	};
+    	Legend.addTo(zipcodeMap);
 
       add_zipcodeLayer_to_map = (function(zipData) {
         zipcodeLayer = L.geoJson(zipData)
@@ -65,9 +81,35 @@
         success: add_zipcodeLayer_to_map
       });
     });
+
+    function getColor(d) {
+  		switch(d) {
+  			case 1: return "#58D68D";
+  			case 2: return "#FF5858";
+  			case 3: return "grey";
+  			default: return "#ffff33";
+  		}
+  	};
+
   </script>
 
   <style>
+    .legend {
+        line-height: 18px;
+        /* color: #555; */
+        background: #FFFFFF;
+        border-style: solid;
+        padding: 8px;
+        border-color: grey;
+    }
+    .legend i {
+        width: 18px;
+        height: 18px;
+        float: left;
+        margin-right: 8px;
+        opacity: 0.7;
+    }
+
     body {
       background-color: #D4E6F1;
     }
@@ -102,9 +144,14 @@
   <div id="zipcodeMap" style="width:500px;height:550px;margin:auto;"></div>
 
   <p>
-    <input type="range" id="year-slider" min="2011" max="2017" value="2011"  oninput="outputUpdate(value)" />
+    <input type="range" id="year-slider" min="2007" max="2020" value="2011"  oninput="outputUpdate(value)" />
     <output for="year-slider" id="year">2011</output>
     <script>
+      var yea = "{{years}}"
+      var yea = JSON.parse(yea.replace(/ /g,","))
+      document.getElementById('year-slider').setAttribute('min', Math.min(...yea))
+      document.getElementById('year-slider').setAttribute('max', Math.max(...yea))
+
       function outputUpdate(vol) {
     	  document.querySelector('#year').value = vol;
       }

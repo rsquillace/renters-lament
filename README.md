@@ -1,4 +1,4 @@
-#### Renters' Lament   
+# Renters' Lament   
 
 ## An Exploration of the Affordability of Rent in Seattle Neighborhoods for Various Industry Wages   
 

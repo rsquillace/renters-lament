@@ -8,7 +8,7 @@ Thus, I've embarked on an exploration of the affordability of rent for standard 
 
 ## _Data_  
 
-I've sourced King County industry wage data from the Employment Security Department. Zillow provides median rental listing records broken down by zip code. It was missing a fair amount of data though, particularly in the earlier years of my investigation (I considered data from 2011 to 2017). To compensate for the missing data, I sourced residential and condo sale records from King County public records. I gathered sale information for residences between 1 and 4 bedrooms, as I felt that would display general trends overall. 
+I've sourced King County annual industry wage data from the Employment Security Department. Zillow provides median rental listing records broken down by zip code. It was missing a fair amount of data though, particularly in the earlier years of my investigation (I considered data from 2011 to 2017). To compensate for the missing data, I sourced residential and condo sale records from King County public records. I gathered sale information for residences between 1 and 4 bedrooms, as I felt that would display general trends overall. 
 
 ## _Assumptions_  
 

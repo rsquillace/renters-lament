@@ -3,7 +3,7 @@ from random import random
 import pandas as pd
 import numpy as np
 
-merged = pd.read_csv('data/affordability_data_with_projections.csv')
+merged = pd.read_csv('data/aggregated_affordability/affordability_data_with_projections.csv')
 merged['zipcode'] = merged['zipcode'].astype(str)
 app = Flask(__name__)
 

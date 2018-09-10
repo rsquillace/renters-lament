@@ -1,6 +1,6 @@
 #### Raw Data  
 
-Raw industry and wage data may be found in their respective folders  
+Raw rent and industry wage data may be found in their respective folders  
 
 #### Clean Data  
 

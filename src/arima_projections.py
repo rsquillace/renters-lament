@@ -2,14 +2,32 @@ import pandas as pd
 import numpy as np
 from pyramid.arima import auto_arima
 
+
 def transform_df(rent_df, zipcode, start_year,end_year):
+
+    '''
+    Reformats rent dataframe so ARIMA models can be applied
+
+    INPUT: Rent dataframe, zip code of interest, earliest known year of rent, latest known year of rent
+    OUTPUT: Reformatted rent dataframe for zip code of interest
+    '''
+
     years = []
     for year in range(start_year,end_year+1):
         years.append(str(year))
     zip_df = rent_df[rent_df['zipcode'] == zipcode].loc[:, str(start_year):str(end_year)].T.copy()
     return zip_df
 
+
 def make_rent_arima_predictions(rent_df, start_year, end_year, year_to_predict_to):
+
+    '''
+    Fits ARIMA model and makes projections for rent, adds projections to rent dataframe
+
+    INPUT: Rent dataframe, earliest known year of rent, latest known year of rent, year to predict through
+    OUTPUT: Rent dataframe with added projections
+    '''
+
     pred_rent = rent_df.copy()
     pred_years = []
     for year in range(end_year+1, year_to_predict_to+1):
@@ -30,7 +48,16 @@ def make_rent_arima_predictions(rent_df, start_year, end_year, year_to_predict_t
             pred_rent.at[pred_rent['zipcode'] == zc, str(year)] = pred_dic[str(year)]
     return pred_rent
 
+
 def make_wage_arima_predictions(wage_df, start_year, year_to_predict_to):
+
+    '''
+    Fits ARIMA model and make projections for wages, adds projections to wage dataframe
+
+    INPUT: Wage dataframe, earliest considered wage year, year to predict through
+    OUTPUT: Wage dataframe with added projections
+    '''
+
     ind_projection_dfs = []
     l = []
     for ind in wage_df['industry'].unique():

@@ -1,7 +1,16 @@
 import pandas as pd
 import numpy as np
 
+
 def clean_wage(data_file_path,data_year):
+
+    '''
+    Cleans raw industry wage data
+
+    INPUT: Filepath to annual King County industry wage report, year of report
+    OUTPUT: Dataframe containing industry wage data
+    '''
+
     wages = pd.read_excel(data_file_path)
     wages = wages.dropna(subset=[wages.columns[1]])
     clean_wages = wages[wages.columns[[2, 18]]].copy()
@@ -12,7 +21,18 @@ def clean_wage(data_file_path,data_year):
     clean_wages['year'] = data_year
     return clean_wages
 
-def make_min_wage_df(wage15,wage16,wage17, desc):
+
+def make_min_wage_df(desc, wage15,wage16,wage17):
+
+    '''
+    Makes a custom dataframe of minimum wage earnings
+
+    INPUT: Description of tier of minimum wage being defined, 2015 wage for tier, 2016 wage for tier, 2017 wage for tier
+    OUTPUT: Dataframe containing minimum wage data
+
+    Created under the assumption a full time employee works 50 weeks in one year
+    '''
+
     years = [2011,2012,2013,2014,2015,2016,2017]
     hourly_wage = np.array([8.76,9.04,9.19,9.32,wage15,wage16,wage17])
     avg_wage = (hourly_wage * 40) * 50
@@ -21,8 +41,16 @@ def make_min_wage_df(wage15,wage16,wage17, desc):
                                   'monthly_rent_allowance': (avg_wage/12)/3,
                                   'year': years})
     return min_wage_df
+    
 
 def make_agg_wage_dataframe():
+
+    '''
+    Aggregates industry and minimum wage dataframes
+
+    INPUT: None
+    OUTPUT: Dataframe containing industry and minimum wage info
+    '''
     dataframes = []
     for year in range(2011,2018):
         dataframes.append(clean_wage(f'data/king_county_wages_{year}.xls', year))

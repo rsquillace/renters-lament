@@ -1,12 +1,30 @@
 import pandas as pd
 import numpy as np
 
+
 def transform_rent(rent_df):
+
+    '''
+    Reformats rent dataframe so it can be merged correctly with the wage dataframe
+
+    INPUT: Rent dataframe
+    OUTPUT: Reformatted rent dataframe
+    '''
+
     transformed_rent = pd.melt(rent_df, id_vars=["zipcode", "neighborhood"], var_name="year", value_name="med_rent").copy()
     transformed_rent['year'] = transformed_rent['year'].astype(int)
     return transformed_rent
 
+
 def merge(one_bed_rent_df, two_bed_rent_df, wage_df):
+
+    '''
+    Merges cleaned wage and filled rent dataframes
+
+    INPUT: One bedroom rent dataframe, two bedroom rent dataframe, wage dataframe
+    OUTPUT: Dataframe containing affordability info for all indusries and zipcodes of years of interest
+    '''
+
     one_bed_rent = transform_rent(one_bed_rent_df)
     two_bed_rent = transform_rent(two_bed_rent_df)
     one_bed_merge = pd.merge(wage_df, one_bed_rent, on='year', how='left')

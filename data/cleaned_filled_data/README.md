@@ -1,4 +1,4 @@
-## The rent data was compiled in multiple steps. They progressed as follows:  
+## Rent data was compiled in multiple steps
 
 ### 1. Raw data cleaned and grouped by year  
 
@@ -12,4 +12,4 @@ one_bed_rent_all_zips, two_bed_rent_all_zips
 
 one_bed_rent_data_filled, two_bed_rent_data_filled  
 
-## Cleaned sale and wage data are available under sale_price_data and wage_data
+### Cleaned sale and wage data are available under sale_price_data and wage_data

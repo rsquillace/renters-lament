@@ -6,7 +6,7 @@ Being a Seattle native, sky rocketing rent is an alarming reality I've consisten
 
 Thus, I've embarked on an exploration of the affordability of rent for standard wages of various industries. In creating a comprehensive display of my findings, I offer a useful tool to advocates of putting systems in place that discourage the displacement of residents earning low wages.   
 
-**The results of this project can be viewed at renterslament.online!**
+**The results of this project can be viewed at <renterslament.online>!**
 
 ## Data  
 

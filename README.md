@@ -4,7 +4,9 @@
 
 Being a Seattle native, sky rocketing rent is an alarming reality I've consistently faced. As the wealth disparity in the city increases, the rental market caters less and less to those in the lower middle and lower class. There are arguments that wages have kept up with the increase in living costs, though personal experience says otherwise.  
 
-Thus, I've embarked on an exploration of the affordability of rent for standard wages of various industries. In creating a comprehensive display of my findings, I offer a useful tool to advocates of putting systems in place that discourage the displacement of residents earning low wages.  
+Thus, I've embarked on an exploration of the affordability of rent for standard wages of various industries. In creating a comprehensive display of my findings, I offer a useful tool to advocates of putting systems in place that discourage the displacement of residents earning low wages.   
+
+**The results of this project can be viewed at renterslament.online!**
 
 ## Data  
 
@@ -24,7 +26,7 @@ I've created forecasts for each industry wage and zip code individually using an
 
 ## Interactive Map   
 
-To display my findings, I created a static web app hosting an interactive map using Brython. It displays a map of Seattle zip codes, with drop down menus for both industries and bedrooms. Once those are chosen, the user can move the sliding year scale and the color coded map displaying affordable vs. unaffordable zip codes accordingly. Note, this web app is only running locally for the time being, but will be public on the web very soon!  
+To display my findings, I created a static web app hosting an interactive map using Brython. It displays a map of Seattle zip codes, with drop down menus for both industries and bedrooms. Once those are chosen, the user can move the sliding year scale and the color coded map displaying affordable vs. unaffordable zip codes accordingly. The code for this work may be found in the **static** and **templates** directories, though the Brython portion of the code is being stored in a S3 bucket. 
 
 ## Moving Forward  
 

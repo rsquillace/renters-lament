@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title> Seattle Rental Affordability</title>
+  <title> Renters' Lament</title>
   <script type="text/javascript" src="http://static.renterslament.online/brython/brython.js"></script>
   <script type="text/javascript" src="http://static.renterslament.online/brython/brython_modules.js"></script>
 
@@ -111,18 +111,51 @@
     }
 
     body {
-      background-color: #D4E6F1;
+      background-color: white;
     }
 
     h1 {
       color: black;
       text-align: center;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-size: 26px;
     }
 
     p {
-      font-family: verdana;
+      font-family: "Comic Sans MS", cursive, sans-serif;
       font-size: 20px;
     }
+
+    .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    }
+
+    .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    .boxed {
+  background-color: grey ;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 700px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+  }
   </style>
 
 </head>
@@ -131,34 +164,19 @@
 
 <body onload="brython({debug:1, pythonpath:['static/brython']})">
 
-  <header class="main-header" role="banner">
-    <img src="http://static.renterslament.online/Seattle_3_banner.jpg" alt="Banner Image" style="overflow-x:hidden;max-width:100%"/>
+  <header class="container" role="banner">
+    <img src="http://static.renterslament.online/Seattle_3_banner.jpg" alt="Banner Image" style="overflow-x:hidden;max-width:100%;opacity:.8"/>
+    <div class="centered">Renters' Lament</div>
   </header>
   <div style="text-align: center;">
 
-  <h1>Renters' Lament</h1>
-  <p>
-    A comprehensive display of the changing affordability of rent in Seattle
-  </p>
+  <h1>
+    An exploration of the changing affordability of rent in Seattle
+  </h1>
 
-  <div id="zipcodeMap" style="width:500px;height:550px;margin:auto;"></div>
-
-  <p>
-    <input type="range" id="year-slider" min="2007" max="2020" value="2011"  oninput="outputUpdate(value)" />
-    <output for="year-slider" id="year">2011</output>
-    <script>
-      var yea = "{{years}}"
-      var yea = JSON.parse(yea.replace(/ /g,","))
-      document.getElementById('year-slider').setAttribute('min', Math.min(...yea))
-      document.getElementById('year-slider').setAttribute('max', Math.max(...yea))
-
-      function outputUpdate(vol) {
-    	  document.querySelector('#year').value = vol;
-      }
-    </script>
-
-  </p>
-
+  <div class="boxed">
+    Over the past few years, Seattle rent has skyrocketed. As the wealth disparity in the city increases, the rental market caters less and less to the lower class. This map displays affordability throughout the city for standard industry wages. "Affordable rent" is defined by the expectation a resident would make three or more times their rent in a month.
+  </div>
     <p>
 
 <select id="industry_name">
@@ -185,11 +203,29 @@
 
     </p>
 
-    <div "wrapper" style="text-align: center;">
-      <!--<div style="display: inline-block; vertical-align: top;"> <img src="http://static.renterslament.online/zip-code-map-seattle.jpg"></div>-->
-      <div style="display: inline-block; vertical-align: top; padding: 3rem" id="table"></div>
-    </div>
+    <p>
+      <input type="range" id="year-slider" min="2007" max="2020" value="2011"  oninput="outputUpdate(value)" />
+      <output for="year-slider" id="year">2011</output>
+      <script>
+        var yea = "{{years}}"
+        var yea = JSON.parse(yea.replace(/ /g,","))
+        document.getElementById('year-slider').setAttribute('min', Math.min(...yea))
+        document.getElementById('year-slider').setAttribute('max', Math.max(...yea))
 
+        function outputUpdate(vol) {
+          document.querySelector('#year').value = vol;
+        }
+      </script>
+
+    </p>
+
+  <div id="zipcodeMap" style="width:500px;height:550px;margin:auto;display: inline-block"></div>
+
+  <div style="display: inline-block; vertical-align: top; padding: 3rem" id="table"></div>
+
+  <p>
+      Created by Rachel Squillace ::  <a href="https://github.com/rsquillace/renters-lament">Click here</a> for more information about this project
+    </p>
   </div>
 
 

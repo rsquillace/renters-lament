@@ -39,9 +39,10 @@ def aff_map(industry_name, year, bedroom):
 def retrieve_affordable_zips(industry_name, year, bedroom):
     df = merged[(merged['industry'] == industry_name)&(merged['year'] == year)&(merged['bedrooms'] == bedroom)].copy()
     affordable_zips = []
-    for zip in df['zipcode'].values:
-        if df[df['zipcode'] == zip]['affordable'].item() == True:
-            affordable_zips.append(zip)
+    for zc in df['zipcode'].values:
+        if df[df['zipcode'] == zc]['affordable'].item() == True:
+            nh = df[df['zipcode'] == zc]['neighborhood'].item()
+            affordable_zips.append(f'{nh} : {zc}')
     return affordable_zips
 
 if __name__ == '__main__':
